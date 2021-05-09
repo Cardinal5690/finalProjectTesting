@@ -1,0 +1,49 @@
+package model.entity;
+
+import java.util.Objects;
+
+public class Answer {
+    private Integer id;
+    private String letter;
+    private String answerText;
+
+    public Answer() {
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getLetter() {
+        return letter;
+    }
+
+    public void setLetter(String letter) {
+        this.letter = letter;
+    }
+
+    public String getAnswerText() {
+        return answerText;
+    }
+
+    public void setAnswerText(String answerText) {
+        this.answerText = answerText;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Answer answer = (Answer) o;
+        return Objects.equals(id, answer.id) && Objects.equals(letter, answer.letter) && Objects.equals(answerText, answer.answerText);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, letter, answerText);
+    }
+}
