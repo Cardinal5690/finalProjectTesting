@@ -10,7 +10,7 @@ public abstract class DaoFactory {
     public abstract UserDao createUserDao();
     public abstract TestDao createTestDao();
     public abstract SubjectDao createSubjectDao();
-    public abstract ResultTestDao createResultTestDao();
+    public abstract TestResultDao createTestResultDao();
     public abstract QuestionDao createQuestionDao();
     public abstract AnswerDao createAnswerDao();
 

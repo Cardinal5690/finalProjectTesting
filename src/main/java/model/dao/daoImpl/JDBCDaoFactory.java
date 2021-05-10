@@ -29,8 +29,8 @@ public class JDBCDaoFactory extends DaoFactory {
     }
 
     @Override
-    public ResultTestDao createResultTestDao() {
-        return new ResultTestImpl();
+    public TestResultDao createTestResultDao() {
+        return new TestResultDaoImpl();
     }
 
     @Override

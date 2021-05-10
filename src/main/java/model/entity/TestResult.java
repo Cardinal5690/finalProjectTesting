@@ -2,14 +2,11 @@ package model.entity;
 
 import java.util.Objects;
 
-public class ResultTest {
+public class TestResult {
     private Integer id;
     private Integer result;
     private Integer user_id;
     private Integer test_id;
-
-    public ResultTest() {
-    }
 
     public Integer getId() {
         return id;
@@ -47,7 +44,7 @@ public class ResultTest {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ResultTest that = (ResultTest) o;
+        TestResult that = (TestResult) o;
         return Objects.equals(id, that.id) && Objects.equals(result, that.result) && Objects.equals(user_id, that.user_id) && Objects.equals(test_id, that.test_id);
     }
 

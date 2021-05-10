@@ -21,6 +21,7 @@ public class TestDaoImpl implements TestDao {
             PreparedStatement preparedStatement =
                     connection.prepareStatement(QueriesResourceManager.getProperty("test.create"), Statement.RETURN_GENERATED_KEYS);
             setParam(entity, preparedStatement);
+            preparedStatement.execute();
             ResultSet resultSet = preparedStatement.getGeneratedKeys();
             if (resultSet.next()) {
                 entity.setId(resultSet.getInt(1));
@@ -68,6 +69,7 @@ public class TestDaoImpl implements TestDao {
             PreparedStatement preparedStatement =
                     connection.prepareStatement(QueriesResourceManager.getProperty("test.update"));
             setParam(entity, preparedStatement);
+            preparedStatement.setInt(5,entity.getId());
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
             LOGGER.info("Test didn't update", e);

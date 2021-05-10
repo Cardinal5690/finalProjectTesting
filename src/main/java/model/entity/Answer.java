@@ -6,6 +6,7 @@ public class Answer {
     private Integer id;
     private String letter;
     private String answerText;
+    private int question_id;
 
     public Answer() {
     }
@@ -34,16 +35,24 @@ public class Answer {
         this.answerText = answerText;
     }
 
+    public int getQuestion_id() {
+        return question_id;
+    }
+
+    public void setQuestion_id(int question_id) {
+        this.question_id = question_id;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Answer answer = (Answer) o;
-        return Objects.equals(id, answer.id) && Objects.equals(letter, answer.letter) && Objects.equals(answerText, answer.answerText);
+        return question_id == answer.question_id && Objects.equals(id, answer.id) && Objects.equals(letter, answer.letter) && Objects.equals(answerText, answer.answerText);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, letter, answerText);
+        return Objects.hash(id, letter, answerText, question_id);
     }
 }
