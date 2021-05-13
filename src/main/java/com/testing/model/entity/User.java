@@ -2,17 +2,34 @@ package com.testing.model.entity;
 
 import com.testing.model.entity.type.Role;
 import com.testing.model.entity.type.Status;
+import com.testing.model.validation.constraint.RoleSubset;
+import com.testing.model.validation.constraint.StatusSubset;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+import java.util.List;
 import java.util.Objects;
 
 public class User {
+    @NotNull
     private Integer id;
+    @NotNull
+    @Size(min = 2,max = 50)
     private String name;
+    @NotNull
+    @Size(max=50)
     private String surname;
+    @NotNull
+    @Email
     private String email;
+    @NotNull
     private Integer password;
+    @RoleSubset(anyOf = {Role.UNREGISTERED, Role.STUDENT,Role.ADMIN})
     private Role role;
+    @StatusSubset(anyOf = {Status.BLOCKED, Status.UNBLOCKED})
     private Status status;
+    private List<Subject> subjectList;
 
     public User() {
     }
@@ -83,16 +100,24 @@ public class User {
         this.status = status;
     }
 
+    public List<Subject> getSubjectList() {
+        return subjectList;
+    }
+
+    public void setSubjectList(List<Subject> subjectList) {
+        this.subjectList = subjectList;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
-        return Objects.equals(id, user.id) && Objects.equals(name, user.name) && Objects.equals(surname, user.surname) && Objects.equals(email, user.email) && Objects.equals(password, user.password) && role == user.role && status == user.status;
+        return Objects.equals(id, user.id) && Objects.equals(name, user.name) && Objects.equals(surname, user.surname) && Objects.equals(email, user.email) && Objects.equals(password, user.password) && role == user.role && status == user.status && Objects.equals(subjectList, user.subjectList);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, surname, email, password, role, status);
+        return Objects.hash(id, name, surname, email, password, role, status, subjectList);
     }
 }

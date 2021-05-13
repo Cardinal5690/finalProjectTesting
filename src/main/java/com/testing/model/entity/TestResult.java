@@ -1,11 +1,19 @@
 package com.testing.model.entity;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
 public class TestResult {
+    @NotNull
     private Integer id;
+    @Min(0)
+    @Max(100)
     private Integer result;
+    @NotNull
     private Integer user_id;
+    @NotNull
     private Integer test_id;
 
     public Integer getId() {

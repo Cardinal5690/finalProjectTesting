@@ -1,10 +1,14 @@
 package com.testing.model.entity;
 
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
 public class Answer {
+    @NotNull
     private Integer id;
+    @NotNull
     private String letter;
+    @NotNull
     private String answerText;
     private int question_id;
 
