@@ -1,11 +1,10 @@
-package com.testing.dao;
+package com.testing.model.service;
 
 import com.testing.model.entity.Test;
 
 import java.util.List;
 
-public interface TestDao extends GenericDao<Test> {
-    List<Test> getAllTestBySubjectId(int subjectId);
+public interface TestService extends GeneralService<Test>{
     List<Test> getBySubjectTitle(String title);
     Test getByName (String name);
 }

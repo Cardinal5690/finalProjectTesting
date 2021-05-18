@@ -22,7 +22,7 @@ public class UserDaoImpl implements UserDao {
             setParam(entity, preparedStatement);
             preparedStatement.execute();
             ResultSet resultSet = preparedStatement.getGeneratedKeys();
-            if(resultSet.next()){
+            if (resultSet.next()) {
                 entity.setId(resultSet.getInt(1));
             }
         } catch (SQLException e) {
@@ -78,7 +78,7 @@ public class UserDaoImpl implements UserDao {
         preparedStatement.setString(1, entity.getName());
         preparedStatement.setString(2, entity.getSurname());
         preparedStatement.setString(3, entity.getEmail());
-        preparedStatement.setInt(4, entity.getPassword());
+        preparedStatement.setString(4, entity.getPassword());
         preparedStatement.setString(5, String.valueOf(entity.getStatus()));
         preparedStatement.setString(6, String.valueOf(entity.getRole()));
     }
@@ -95,17 +95,33 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public User findUserByLoginAndPassword(String email, int password) {
-        try(Connection connection = ConnectionPool.getDataSource().getConnection()){
+    public User findUserByLoginAndPassword(String email, String password) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
             PreparedStatement preparedStatement =
                     connection.prepareStatement(QueriesResourceManager.getProperty("user.find.by.login.and.password"));
             preparedStatement.setString(1, email);
-            preparedStatement.setInt(2,password);
+            preparedStatement.setString(2, password);
             ResultSet resultSet = preparedStatement.executeQuery();
-            if(resultSet.next()){
-               return new UserMapper().extractFromResultSet(resultSet);
+            if (resultSet.next()) {
+                return new UserMapper().extractFromResultSet(resultSet);
             }
-        } catch (SQLException e){
+        } catch (SQLException e) {
+            LOGGER.info("User didn't find", e);
+        }
+        return null;
+    }
+
+    @Override
+    public User findByEmail(String email) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+            PreparedStatement preparedStatement =
+                    connection.prepareStatement(QueriesResourceManager.getProperty("user.find.by.email"));
+            preparedStatement.setString(1, email);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                return new UserMapper().extractFromResultSet(resultSet);
+            }
+        } catch (SQLException e) {
             LOGGER.info("User didn't find", e);
         }
         return null;

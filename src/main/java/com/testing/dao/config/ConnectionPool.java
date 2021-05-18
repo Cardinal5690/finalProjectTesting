@@ -1,6 +1,7 @@
 package com.testing.dao.config;
 
 
+import com.testing.dao.util.ConnectionResourceManager;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.log4j.Logger;
 
@@ -17,14 +18,14 @@ public class ConnectionPool {
             synchronized (ConnectionPool.class) {
                 if (dataSource == null) {
                     try {
-                        Class.forName("org.postgresql.Driver");
+                        Class.forName(ConnectionResourceManager.getProperty("connection.driver"));
                     } catch (ClassNotFoundException e) {
                         logger.error(e);
                     }
                     BasicDataSource ds = new BasicDataSource();
-                    ds.setUrl("jdbc:postgresql://localhost:5432/testing?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true");
-                    ds.setUsername("postgres");
-                    ds.setPassword("user");
+                    ds.setUrl(ConnectionResourceManager.getProperty("connection.url"));
+                    ds.setUsername(ConnectionResourceManager.getProperty("connection.user.name"));
+                    ds.setPassword(ConnectionResourceManager.getProperty("connection.password"));
                     ds.setMinIdle(5);
                     ds.setMaxIdle(10);
                     ds.setMaxOpenPreparedStatements(100);

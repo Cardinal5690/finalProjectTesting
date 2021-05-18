@@ -14,7 +14,7 @@ public class TestMapper implements ObjectMapper<Test> {
         test.setTestName(rs.getString("test_name"));
         test.setComplexity(Enum.valueOf(Complexity.class, rs.getString("complexity")));
         test.setTime(rs.getInt("time"));
-        test.setSubject_id(rs.getInt("subject_id"));
+        test.setSubjectId(rs.getInt("subject_id"));
         return test;
     }
 }

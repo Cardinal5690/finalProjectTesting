@@ -92,4 +92,21 @@ public class AnswerDaoImpl implements AnswerDao {
             LOGGER.info("Answer didn't delete", e);
         }
     }
+
+    @Override
+    public List<Answer> findAllByQuestionId(int questionId) {
+        List<Answer> answerList = new ArrayList<>();
+        try(Connection connection = ConnectionPool.getDataSource().getConnection()){
+            PreparedStatement preparedStatement =
+                    connection.prepareStatement(QueriesResourceManager.getProperty("answer.find.all.by.question.id"));
+            preparedStatement.setInt(1,questionId);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while(resultSet.next()){
+                answerList.add(new AnswerMapper().extractFromResultSet(resultSet));
+            }
+        } catch (SQLException e){
+            LOGGER.info("Didn't find any answer", e);
+        }
+        return answerList;
+    }
 }

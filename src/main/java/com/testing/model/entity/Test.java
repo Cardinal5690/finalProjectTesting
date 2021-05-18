@@ -22,9 +22,8 @@ public class Test {
     private Integer time;
     @ComplexitySubset(anyOf = {Complexity.EASY,Complexity.DIFFICULT,Complexity.MIDDLE})
     private Complexity complexity;
+    private Integer SubjectId;
     private List<Question> questionList;
-    @NotNull
-    private Integer subject_id;
 
     public Test() {
     }
@@ -61,14 +60,6 @@ public class Test {
         this.complexity = complexity;
     }
 
-    public Integer getSubject_id() {
-        return subject_id;
-    }
-
-    public void setSubject_id(Integer subject_id) {
-        this.subject_id = subject_id;
-    }
-
     public List<Question> getQuestionList() {
         return questionList;
     }
@@ -77,16 +68,24 @@ public class Test {
         this.questionList = questionList;
     }
 
+    public Integer getSubjectId() {
+        return SubjectId;
+    }
+
+    public void setSubjectId(Integer subjectId) {
+        SubjectId = subjectId;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Test test = (Test) o;
-        return Objects.equals(id, test.id) && Objects.equals(testName, test.testName) && Objects.equals(time, test.time) && complexity == test.complexity && Objects.equals(questionList, test.questionList) && Objects.equals(subject_id, test.subject_id);
+        return Objects.equals(id, test.id) && Objects.equals(testName, test.testName) && Objects.equals(time, test.time) && complexity == test.complexity && Objects.equals(SubjectId, test.SubjectId) && Objects.equals(questionList, test.questionList);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, testName, time, complexity, questionList, subject_id);
+        return Objects.hash(id, testName, time, complexity, SubjectId, questionList);
     }
 }

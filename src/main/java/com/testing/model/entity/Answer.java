@@ -10,6 +10,7 @@ public class Answer {
     private String letter;
     @NotNull
     private String answerText;
+    @NotNull
     private int question_id;
 
     public Answer() {

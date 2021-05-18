@@ -74,22 +74,58 @@ public class QuestionDaoImpl implements QuestionDao {
         try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
             PreparedStatement preparedStatement = connection.prepareStatement(QueriesResourceManager.getProperty("question.update"));
             setParam(entity, preparedStatement);
-            preparedStatement.setInt(5,entity.getId());
+            preparedStatement.setInt(5, entity.getId());
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
-            LOGGER.info("Question didn't update",e);
+            LOGGER.info("Question didn't update", e);
         }
     }
 
     @Override
     public void delete(int id) {
-        try(Connection connection = ConnectionPool.getDataSource().getConnection()){
+        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
             PreparedStatement preparedStatement =
                     connection.prepareStatement(QueriesResourceManager.getProperty("question.delete"));
-            preparedStatement.setInt(1,id);
+            preparedStatement.setInt(1, id);
             preparedStatement.execute();
-        }catch (SQLException e){
-            LOGGER.info("Question didn't delete",e);
+        } catch (SQLException e) {
+            LOGGER.info("Question didn't delete", e);
         }
     }
+
+    @Override
+    public List<Question> getAllQuestionsByTestId(int testId) {
+        List<Question> questionList = new ArrayList<>();
+        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+            PreparedStatement preparedStatement =
+                    connection.prepareStatement(QueriesResourceManager.getProperty("question.find.all.by.test.id"));
+            preparedStatement.setInt(1, testId);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                questionList.add(new QuestionMapper().extractFromResultSet(resultSet));
+            }
+        } catch (SQLException e) {
+            LOGGER.info("Didn't find any question", e);
+        }
+        return questionList;
+    }
+
+    @Override
+    public List<Question> getAllQuestionsByTestName(String testName) {
+        List<Question> questionList = new ArrayList<>();
+        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+            PreparedStatement preparedStatement =
+                    connection.prepareStatement(QueriesResourceManager.getProperty("question.find.all.by.test.name"));
+            preparedStatement.setString(1, testName);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                questionList.add(new QuestionMapper().extractFromResultSet(resultSet));
+            }
+        } catch (SQLException e) {
+            LOGGER.info("Didn't find any question", e);
+        }
+        return questionList;
+    }
 }
+
+

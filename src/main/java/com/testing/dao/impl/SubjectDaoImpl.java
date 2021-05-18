@@ -36,6 +36,7 @@ public class SubjectDaoImpl implements SubjectDao {
         try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
             PreparedStatement preparedStatement =
                     connection.prepareStatement(QueriesResourceManager.getProperty("subject.find.by.id"));
+            preparedStatement.setInt(1,id);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {
                 return new SubjectMapper().extractFromResultSet(resultSet);
@@ -67,7 +68,6 @@ public class SubjectDaoImpl implements SubjectDao {
             PreparedStatement preparedStatement =
                     connection.prepareStatement(QueriesResourceManager.getProperty("subject.update"));
             preparedStatement.setString(1, entity.getTitle());
-            preparedStatement.setInt(2, entity.getId());
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
             LOGGER.info("Subject didn't update", e);
@@ -84,5 +84,22 @@ public class SubjectDaoImpl implements SubjectDao {
         } catch (SQLException e) {
             LOGGER.info("Subject didn't delete");
         }
+    }
+
+    @Override
+    public List<Subject> findAllByUserId(int userId) {
+        ArrayList<Subject> subjects =new ArrayList<>();
+        try(Connection connection = ConnectionPool.getDataSource().getConnection()){
+            PreparedStatement preparedStatement =
+                    connection.prepareStatement(QueriesResourceManager.getProperty("subject.find.all.by.user.id"));
+            preparedStatement.setInt(1,userId);
+            ResultSet resultSet= preparedStatement.executeQuery();
+            while (resultSet.next()){
+                subjects.add(new SubjectMapper().extractFromResultSet(resultSet));
+            }
+        } catch (SQLException e){
+            LOGGER.info("Didn't find any subject");
+        }
+        return subjects;
     }
 }

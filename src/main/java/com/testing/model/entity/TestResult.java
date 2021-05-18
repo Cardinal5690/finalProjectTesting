@@ -3,6 +3,7 @@ package com.testing.model.entity;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
+import java.util.List;
 import java.util.Objects;
 
 public class TestResult {
@@ -15,6 +16,7 @@ public class TestResult {
     private Integer user_id;
     @NotNull
     private Integer test_id;
+
 
     public Integer getId() {
         return id;

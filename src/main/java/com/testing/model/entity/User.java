@@ -7,25 +7,27 @@ import com.testing.model.validation.constraint.StatusSubset;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 import java.util.List;
 import java.util.Objects;
 
 public class User {
-    @NotNull
     private Integer id;
     @NotNull
-    @Size(min = 2,max = 50)
+    @Size(min = 2, max = 50)
     private String name;
     @NotNull
-    @Size(max=50)
+    @Size(max = 50)
     private String surname;
     @NotNull
+//    @Pattern(regexp = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$")
     @Email
     private String email;
     @NotNull
-    private Integer password;
-    @RoleSubset(anyOf = {Role.UNREGISTERED, Role.STUDENT,Role.ADMIN})
+    @Size(min = 6)
+    private String password;
+    @RoleSubset(anyOf = {Role.UNREGISTERED, Role.STUDENT, Role.ADMIN})
     private Role role;
     @StatusSubset(anyOf = {Status.BLOCKED, Status.UNBLOCKED})
     private Status status;
@@ -34,7 +36,7 @@ public class User {
     public User() {
     }
 
-    public User(String name, String surname, String email, Integer password, Role role, Status status) {
+    public User(String name, String surname, String email, String password, Role role, Status status) {
         this.name = name;
         this.surname = surname;
         this.email = email;
@@ -76,11 +78,11 @@ public class User {
         this.surname = surname;
     }
 
-    public Integer getPassword() {
+    public String getPassword() {
         return password;
     }
 
-    public void setPassword(Integer password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 
