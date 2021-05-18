@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.Objects;
 
 public class RoleFilter implements Filter {
-    private Logger LOGGER = Logger.getLogger(RoleFilter.class);
+    private static final Logger LOGGER = Logger.getLogger(RoleFilter.class);
     @Override
     public void init(FilterConfig filterConfig) {
 
