@@ -16,22 +16,22 @@ public class User {
     private Integer id;
     @NotNull
     @Size(min = 2, max = 50)
+    @Pattern(regexp = "[A-Z][a-z]{1,20}$")
     private String name;
     @NotNull
     @Size(max = 50)
+    @Pattern(regexp = "[A-Z][a-z]{1,20}$")
     private String surname;
     @NotNull
-//    @Pattern(regexp = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$")
     @Email
     private String email;
     @NotNull
     @Size(min = 6)
     private String password;
-    @RoleSubset(anyOf = {Role.UNREGISTERED, Role.STUDENT, Role.ADMIN})
+    @RoleSubset(anyOf = {Role.STUDENT, Role.ADMIN})
     private Role role;
     @StatusSubset(anyOf = {Status.BLOCKED, Status.UNBLOCKED})
     private Status status;
-    private List<Subject> subjectList;
 
     public User() {
     }
@@ -102,24 +102,17 @@ public class User {
         this.status = status;
     }
 
-    public List<Subject> getSubjectList() {
-        return subjectList;
-    }
-
-    public void setSubjectList(List<Subject> subjectList) {
-        this.subjectList = subjectList;
-    }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
-        return Objects.equals(id, user.id) && Objects.equals(name, user.name) && Objects.equals(surname, user.surname) && Objects.equals(email, user.email) && Objects.equals(password, user.password) && role == user.role && status == user.status && Objects.equals(subjectList, user.subjectList);
+        return Objects.equals(id, user.id) && Objects.equals(name, user.name) && Objects.equals(surname, user.surname) && Objects.equals(email, user.email) && Objects.equals(password, user.password) && role == user.role && status == user.status;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, surname, email, password, role, status, subjectList);
+        return Objects.hash(id, name, surname, email, password, role, status);
     }
 }

@@ -21,11 +21,15 @@
     </filter>
     <filter-mapping>
         <filter-name>LocaleFilter</filter-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/testing/language/*</url-pattern>
     </filter-mapping>
     <filter>
         <filter-name>EncodingFilter</filter-name>
         <filter-class>com.testing.controller.filter.EncodingFilter</filter-class>
+        <init-param>
+            <param-name>requestEncoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
     </filter>
     <filter-mapping>
         <filter-name>EncodingFilter</filter-name>
@@ -38,7 +42,7 @@
     <filter-mapping>
         <filter-name>RoleFilter</filter-name>
         <url-pattern>/testing/admin/*</url-pattern>
-        <url-pattern>/testing/client/*</url-pattern>
+        <url-pattern>/testing/student/*</url-pattern>
     </filter-mapping>
     <filter>
         <filter-name>AuthorizationFilter</filter-name>
@@ -47,8 +51,8 @@
 
     <filter-mapping>
         <filter-name>AuthorizationFilter</filter-name>
-        <url-pattern>/testing/admin/*</url-pattern>
-        <url-pattern>/testing/client/*</url-pattern>
+        <url-pattern>/testing/*</url-pattern>
+        <url-pattern>/testing/*</url-pattern>
     </filter-mapping>
 
     <listener>
@@ -63,4 +67,10 @@
         <error-code>404</error-code>
         <location>/WEB-INF/view/not_found.jsp</location>
     </error-page>
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
 </web-app>

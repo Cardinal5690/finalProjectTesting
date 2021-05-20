@@ -11,7 +11,7 @@
        scope="session"/>
 <fmt:setLocale value="${language}"/>
 <fmt:setBundle basename="text"/>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page pageEncoding="UTF-8" contentType="text/html;charset=UTF-8"%>
 <html>
 <head>
     <title><fmt:message key="text.title"/></title>
@@ -55,7 +55,8 @@
             <form method="post"
                   action="${pageContext.request.contextPath}/testing/student/subject">
                 <input type="hidden">
-                <button class="btn" type="submit"><fmt:message key="text.choose"/> </button>
+                <button class="btn" name="locale" value="EN" type="submit"><fmt:message key="text.subjects.en"/> </button>
+                <button class="btn" name="locale" value="UA" type="submit"><fmt:message key="text.subjects.ua"/> </button>
             </form>
         </div>
         <div class="col s12 m6">

@@ -30,8 +30,10 @@ public class ResultCommand implements Command {
     public String execute(HttpServletRequest request, HttpServletResponse response) {
         User user = (User) request.getSession().getAttribute(AttributesResourceManager.getProperty("parameter.user"));
         String testName = request.getParameter(AttributesResourceManager.getProperty("parameter.test"));
-        String[] answers = request.getParameterValues(AttributesResourceManager.getProperty("parameter.answer"));
-        String[] questions = request.getParameterValues(AttributesResourceManager.getProperty("parameter.question"));
+        String[] answers =
+                request.getParameterValues(AttributesResourceManager.getProperty("parameter.answer"));
+        String[] questions =
+                request.getParameterValues(AttributesResourceManager.getProperty("parameter.question"));
 
         Test test = testService.getByName(testName);
         List<Question> questionListFromDB = questionService.getAllQuestionsByTestName(testName);

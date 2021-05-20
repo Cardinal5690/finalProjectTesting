@@ -12,8 +12,7 @@ public class QuestionMapper implements ObjectMapper<Question>{
         question.setId(rs.getInt("id"));
         question.setQuestionText(rs.getString("question_text"));
         question.setCorrectAnswer(rs.getString("correct_answer"));
-        question.setTest_id(rs.getInt("test_id"));
-        question.setNumber(rs.getInt("number"));
+        question.setTestId(rs.getInt("test_id"));
         return question;
     }
 }

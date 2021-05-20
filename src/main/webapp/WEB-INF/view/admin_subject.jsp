@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: igor5
-  Date: 16.05.2021
-  Time: 13:07
+  Date: 19.05.2021
+  Time: 17:03
   To change this template use File | Settings | File Templates.
 --%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -14,44 +14,37 @@
 <%@ page pageEncoding="UTF-8" contentType="text/html;charset=UTF-8"%>
 <html>
 <head>
-        <title><fmt:message key="text.title"/></title>
-        <jsp:include page="/WEB-INF/parts/head.jsp"/>
-    <style>
-        textarea{
-            resize: none;
-            outline: none;
-        }
-    </style>
+    <title><fmt:message key="text.title"/></title>
+    <jsp:include page="/WEB-INF/parts/head.jsp"/>
 </head>
 <body>
 <div class="container">
-    <form method="post" action="${pageContext.request.contextPath}/testing/student/subject/test/pass/result">
-        <input type="hidden"  value="${testName}" name="test"/>
-        <h1 class="flow-text">${testName}</h1>
+    <form method="post" action="${pageContext.request.contextPath}/testing/admin/subject/test">
         <table>
             <thead>
             <tr>
-                <th><fmt:message key="text.question"/></th>
-                <th><fmt:message key="text.question.answer"/></th>
+                <th><fmt:message key="text.subject.name"/></th>
                 <th></th>
                 <br/>
             </tr>
             </thead>
             <tbody>
 
-            <c:forEach items="${databaseList}" var="question">
+            <c:forEach items="${databaseList}" var="subject">
                 <tr>
-                   <textarea style="display:none;" readonly="readonly"  name="question">${question.getQuestionText()}</textarea>
-                    <td>${question.getQuestionText()}</td>
+                    <td> ${subject.getTitle()}</td>
                     <td>
                         <p>
                             <label>
-                                <input type="text" required placeholder="<fmt:message key="text.question.write"/>" name="answer"/>
+                                <input type="hidden" value="${subject.getId()}" name="subjectId">
+                                <input type="radio" required="required" name="title" value="${subject.getTitle()}"/><span> </span>
                             </label>
                         </p>
                     </td>
+
                 </tr>
             </c:forEach>
+
             </tbody>
         </table>
         <input class="btn" type="submit" value="<fmt:message key="text.choose"/>">

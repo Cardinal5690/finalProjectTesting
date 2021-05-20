@@ -34,8 +34,7 @@ public class QuestionDaoImpl implements QuestionDao {
     private void setParam(Question entity, PreparedStatement preparedStatement) throws SQLException {
         preparedStatement.setString(1, entity.getQuestionText());
         preparedStatement.setString(2, entity.getCorrectAnswer());
-        preparedStatement.setInt(3, entity.getTest_id());
-        preparedStatement.setInt(4, entity.getNumber());
+        preparedStatement.setInt(3, entity.getTestId());
     }
 
     @Override
@@ -74,7 +73,7 @@ public class QuestionDaoImpl implements QuestionDao {
         try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
             PreparedStatement preparedStatement = connection.prepareStatement(QueriesResourceManager.getProperty("question.update"));
             setParam(entity, preparedStatement);
-            preparedStatement.setInt(5, entity.getId());
+            preparedStatement.setInt(4, entity.getId());
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
             LOGGER.info("Question didn't update", e);

@@ -102,4 +102,21 @@ public class SubjectDaoImpl implements SubjectDao {
         }
         return subjects;
     }
+
+    @Override
+    public List<Subject> findAllByLocale(String locale) {
+        ArrayList<Subject> subjects =new ArrayList<>();
+        try(Connection connection = ConnectionPool.getDataSource().getConnection()){
+            PreparedStatement preparedStatement =
+                    connection.prepareStatement(QueriesResourceManager.getProperty("subject.find.all.by.locale"));
+            preparedStatement.setString(1,locale.toUpperCase());
+            ResultSet resultSet= preparedStatement.executeQuery();
+            while (resultSet.next()){
+                subjects.add(new SubjectMapper().extractFromResultSet(resultSet));
+            }
+        } catch (SQLException e){
+            LOGGER.info("Didn't find any subject");
+        }
+        return subjects;
+    }
 }

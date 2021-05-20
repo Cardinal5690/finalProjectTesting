@@ -2,7 +2,6 @@ package com.testing.model.entity;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import java.util.List;
 import java.util.Objects;
 
 public class Subject {
@@ -11,7 +10,6 @@ public class Subject {
     @NotNull
     @Size(max = 50)
     private String title;
-    private List<Test> testList;
 
     public Subject() {
     }
@@ -38,11 +36,11 @@ public class Subject {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Subject subject = (Subject) o;
-        return Objects.equals(id, subject.id) && Objects.equals(title, subject.title) && Objects.equals(testList, subject.testList);
+        return Objects.equals(id, subject.id) && Objects.equals(title, subject.title);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, title, testList);
+        return Objects.hash(id, title);
     }
 }

@@ -907,9 +907,9 @@
 2021-05-16 13:56:40 INFO  CommandFactory:35 - Command get
 2021-05-16 13:56:40 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-16 13:56:40 INFO  QuestionDaoImpl:125 - Didn't find any question
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" не существует
-  Подсказка: Возможно, предполагалась ссылка на столбец "question.test_id".
-  Позиция: 30
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "question.testId".
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 30
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -982,9 +982,9 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" не существует
 2021-05-16 14:02:37 INFO  CommandFactory:35 - Command get
 2021-05-16 14:04:53 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-16 14:04:54 INFO  QuestionDaoImpl:125 - Didn't find any question
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" не существует
-  Подсказка: Возможно, предполагалась ссылка на столбец "question.test_id".
-  Позиция: 30
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "question.testId".
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 30
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -1057,9 +1057,9 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" не существует
 2021-05-16 14:07:19 INFO  CommandFactory:35 - Command get
 2021-05-16 14:07:19 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-16 14:07:19 INFO  QuestionDaoImpl:125 - Didn't find any question
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" не существует
-  Подсказка: Возможно, предполагалась ссылка на столбец "question.test_id".
-  Позиция: 30
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "question.testId".
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 30
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -1140,9 +1140,9 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" не существует
 2021-05-16 14:09:11 INFO  CommandFactory:35 - Command get
 2021-05-16 14:11:15 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-16 14:11:15 INFO  QuestionDaoImpl:125 - Didn't find any question
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" не существует
-  Подсказка: Возможно, предполагалась ссылка на столбец "question.test_id".
-  Позиция: 30
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "question.testId".
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 30
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -1215,9 +1215,9 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" не существует
 2021-05-16 14:14:53 INFO  CommandFactory:35 - Command get
 2021-05-16 14:15:15 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-16 14:15:15 INFO  QuestionDaoImpl:125 - Didn't find any question
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" не существует
-  Подсказка: Возможно, предполагалась ссылка на столбец "question.test_id".
-  Позиция: 30
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "question.testId".
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 30
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -1266,7 +1266,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" не существует
 2021-05-16 14:19:09 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-16 14:19:14 INFO  QuestionDaoImpl:125 - Didn't find any question
 org.postgresql.util.PSQLException: РћРЁРР‘РљРђ: СЃС‚РѕР»Р±РµС† "testid" РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚
-  РџРѕРґСЃРєР°Р·РєР°: Р’РѕР·РјРѕР¶РЅРѕ, РїСЂРµРґРїРѕР»Р°РіР°Р»Р°СЃСЊ СЃСЃС‹Р»РєР° РЅР° СЃС‚РѕР»Р±РµС† "question.test_id".
+  РџРѕРґСЃРєР°Р·РєР°: Р’РѕР·РјРѕР¶РЅРѕ, РїСЂРµРґРїРѕР»Р°РіР°Р»Р°СЃСЊ СЃСЃС‹Р»РєР° РЅР° СЃС‚РѕР»Р±РµС† "question.testId".
   РџРѕР·РёС†РёСЏ: 30
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
@@ -1853,8 +1853,8 @@ org.postgresql.util.PSQLException: РљРѕР»РѕРЅРєРё correct_answer РЅРµ РЅР°Р№РґРµ
 2021-05-17 13:42:47 INFO  TestServiceImpl:61 - The service searches for a test by name
 2021-05-17 13:42:47 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-17 13:42:47 INFO  TestResultDaoImpl:49 - Subject didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_result" не существует
-  Позиция: 41
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test_result" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 41
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -1964,8 +1964,8 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_resu
 2021-05-17 13:51:21 INFO  TestServiceImpl:61 - The service searches for a test by name
 2021-05-17 13:51:21 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-17 13:55:56 INFO  TestResultDaoImpl:49 - Result didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_result" не существует
-  Позиция: 41
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test_result" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 41
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -2050,8 +2050,8 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_resu
 2021-05-17 13:57:12 INFO  TestServiceImpl:61 - The service searches for a test by name
 2021-05-17 13:57:12 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-17 13:59:23 INFO  TestResultDaoImpl:49 - Result didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_result" не существует
-  Позиция: 41
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test_result" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 41
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -2140,8 +2140,8 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_resu
 2021-05-17 14:01:22 INFO  TestServiceImpl:61 - The service searches for a test by name
 2021-05-17 14:01:22 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-17 14:03:45 INFO  TestResultDaoImpl:49 - Result didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_result" не существует
-  Позиция: 41
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test_result" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 41
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -2226,8 +2226,8 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_resu
 2021-05-17 14:07:58 INFO  TestServiceImpl:61 - The service searches for a test by name
 2021-05-17 14:07:58 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-17 14:08:46 INFO  TestResultDaoImpl:49 - Result didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_result" не существует
-  Позиция: 41
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test_result" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 41
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -2312,8 +2312,8 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_resu
 2021-05-17 14:10:57 INFO  TestServiceImpl:61 - The service searches for a test by name
 2021-05-17 14:10:57 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-17 14:11:51 INFO  TestResultDaoImpl:49 - Result didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_result" не существует
-  Позиция: 41
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test_result" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 41
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -2398,8 +2398,8 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_resu
 2021-05-17 14:13:37 INFO  TestServiceImpl:61 - The service searches for a test by name
 2021-05-17 14:13:37 INFO  QuestionServiceImpl:60 - The service looks for all questions
 2021-05-17 14:14:24 INFO  TestResultDaoImpl:49 - Result didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_result" не существует
-  Позиция: 41
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "testid" пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test_result" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 41
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -2562,8 +2562,8 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "testid" в таблице "test_resu
 2021-05-17 18:18:39 INFO  CommandFactory:33 - Command get
 2021-05-17 18:18:39 INFO  TestServiceImpl:55 - The service sets all the tests for the subject
 2021-05-17 18:18:39 INFO  TestDaoImpl:126 - Didn't find any test
-org.postgresql.util.PSQLException: ОШИБКА: столбец s.test_id не существует
-  Позиция: 48
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ s.testId пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 48
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -3548,9 +3548,9 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец s.test_id не существует
 2021-05-18 12:19:47 INFO  UserServiceImpl:54 - The service searches for a user by email
 2021-05-18 12:19:48 INFO  UserServiceImpl:18 - The service creates a user
 2021-05-18 12:19:49 INFO  UserDaoImpl:29 - User didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, а выражение - character varying
-  Подсказка: Перепишите выражение или преобразуйте его тип.
-  Позиция: 86
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "status" пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ e_status, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 86
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -3622,9 +3622,9 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, 
 2021-05-18 12:23:33 INFO  UserServiceImpl:54 - The service searches for a user by email
 2021-05-18 12:23:35 INFO  UserServiceImpl:18 - The service creates a user
 2021-05-18 12:23:35 INFO  UserDaoImpl:29 - User didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, а выражение - character varying
-  Подсказка: Перепишите выражение или преобразуйте его тип.
-  Позиция: 86
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "status" пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ e_status, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 86
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -3694,9 +3694,9 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, 
 2021-05-18 12:26:04 INFO  UserServiceImpl:54 - The service searches for a user by email
 2021-05-18 12:26:05 INFO  UserServiceImpl:18 - The service creates a user
 2021-05-18 12:26:05 INFO  UserDaoImpl:29 - User didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, а выражение - character varying
-  Подсказка: Перепишите выражение или преобразуйте его тип.
-  Позиция: 86
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "status" пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ e_status, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 86
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -3775,9 +3775,9 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, 
 2021-05-18 12:30:42 INFO  UserServiceImpl:54 - The service searches for a user by email
 2021-05-18 12:31:21 INFO  UserServiceImpl:18 - The service creates a user
 2021-05-18 12:31:22 INFO  UserDaoImpl:29 - User didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, а выражение - character varying
-  Подсказка: Перепишите выражение или преобразуйте его тип.
-  Позиция: 86
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "status" пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ e_status, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 86
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -3847,9 +3847,9 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, 
 2021-05-18 12:33:09 INFO  UserServiceImpl:54 - The service searches for a user by email
 2021-05-18 12:33:50 INFO  UserServiceImpl:18 - The service creates a user
 2021-05-18 12:41:38 INFO  UserDaoImpl:29 - User didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, а выражение - character varying
-  Подсказка: Перепишите выражение или преобразуйте его тип.
-  Позиция: 86
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "status" пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ e_status, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 86
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -3918,9 +3918,9 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, 
 2021-05-18 12:56:04 INFO  UserServiceImpl:54 - The service searches for a user by email
 2021-05-18 12:56:42 INFO  UserServiceImpl:18 - The service creates a user
 2021-05-18 12:57:28 INFO  UserDaoImpl:29 - User didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, а выражение - integer
-  Подсказка: Перепишите выражение или преобразуйте его тип.
-  Позиция: 86
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "status" пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ e_status, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - integer
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 86
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -3991,9 +3991,9 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "status" имеет тип e_status, 
 2021-05-18 14:17:33 INFO  UserServiceImpl:54 - The service searches for a user by email
 2021-05-18 14:18:10 INFO  UserServiceImpl:18 - The service creates a user
 2021-05-18 14:19:50 INFO  UserDaoImpl:29 - User didn't create
-org.postgresql.util.PSQLException: ОШИБКА: столбец "role" имеет тип e_role, а выражение - character varying
-  Подсказка: Перепишите выражение или преобразуйте его тип.
-  Позиция: 89
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "role" пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ e_role, пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 89
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
@@ -4353,3 +4353,2125 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "role" имеет тип e_role, а вы
 2021-05-18 15:13:35 INFO  StudentCommandPage:30 - Student command page execute
 2021-05-18 15:13:35 INFO  TestResultServiceImpl:56 - return list result
 2021-05-18 15:13:35 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 18:57:20 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 18:57:25 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 18:57:30 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 18:57:39 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 18:57:52 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 18:57:53 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 18:58:04 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 18:58:04 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:15:05 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:15:10 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:15:15 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:16:25 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:16:31 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:16:35 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:16:58 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:16:58 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:16:58 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:16:58 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:16:58 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:16:58 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:16:58 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:16:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:16:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:16:59 INFO  CommandFactory:33 - Command get
+2021-05-18 19:16:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:16:59 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 19:17:00 INFO  LoginCommand:34 - User login
+2021-05-18 19:17:00 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:17:00 INFO  CommandFactory:33 - Command get
+2021-05-18 19:17:00 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 19:17:00 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 19:17:00 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 19:17:06 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:17:06 INFO  CommandFactory:33 - Command get
+2021-05-18 19:17:06 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 19:17:06 INFO  SubjectDaoImpl:101 - Didn't find any subject
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: e_locale = character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 35
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at com.testing.dao.impl.SubjectDaoImpl.getAllByLocale(SubjectDaoImpl.java:96)
+	at com.testing.model.service.impl.SubjectServiceImpl.getAllByLocale(SubjectServiceImpl.java:49)
+	at com.testing.controller.command.other.student.SubjectPage.execute(SubjectPage.java:21)
+	at com.testing.controller.Servlet.processRequest(Servlet.java:29)
+	at com.testing.controller.Servlet.doPost(Servlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.testing.controller.filter.LocaleFilter.doFilter(LocaleFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-18 19:17:06 INFO  SubjectPage:22 - Execute
+2021-05-18 19:18:37 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:18:40 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:18:42 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:18:53 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:18:53 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:18:53 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:18:53 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:18:53 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:18:53 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:18:53 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:18:53 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:18:53 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:18:53 INFO  CommandFactory:33 - Command get
+2021-05-18 19:18:53 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:18:53 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 19:18:54 INFO  LoginCommand:34 - User login
+2021-05-18 19:18:54 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:18:54 INFO  CommandFactory:33 - Command get
+2021-05-18 19:18:54 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 19:18:54 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 19:18:54 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 19:18:56 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:18:56 INFO  CommandFactory:33 - Command get
+2021-05-18 19:19:07 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:19:07 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:19:12 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:19:12 INFO  CommandFactory:33 - Command get
+2021-05-18 19:19:12 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:19:12 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 19:19:12 INFO  LoginCommand:34 - User login
+2021-05-18 19:19:13 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:19:13 INFO  CommandFactory:33 - Command get
+2021-05-18 19:19:13 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 19:19:13 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 19:19:13 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 19:19:15 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:19:15 INFO  CommandFactory:33 - Command get
+2021-05-18 19:19:22 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:19:22 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:19:27 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:19:27 INFO  CommandFactory:33 - Command get
+2021-05-18 19:19:27 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:19:27 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 19:19:27 INFO  LoginCommand:34 - User login
+2021-05-18 19:19:27 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:19:27 INFO  CommandFactory:33 - Command get
+2021-05-18 19:19:27 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 19:19:27 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 19:19:27 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 19:19:29 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:19:29 INFO  CommandFactory:33 - Command get
+2021-05-18 19:21:48 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:21:52 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:21:55 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:22:03 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:22:04 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:22:04 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:22:04 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:22:04 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:22:04 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:22:04 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:22:04 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:22:04 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:22:04 INFO  CommandFactory:33 - Command get
+2021-05-18 19:22:04 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:22:04 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 19:22:06 INFO  LoginCommand:34 - User login
+2021-05-18 19:22:06 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:22:06 INFO  CommandFactory:33 - Command get
+2021-05-18 19:22:06 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 19:22:06 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 19:22:06 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 19:22:11 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:22:11 INFO  CommandFactory:33 - Command get
+2021-05-18 19:22:42 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 19:22:42 INFO  SubjectDaoImpl:101 - Didn't find any subject
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: e_locale = character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 35
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at com.testing.dao.impl.SubjectDaoImpl.getAllByLocale(SubjectDaoImpl.java:96)
+	at com.testing.model.service.impl.SubjectServiceImpl.getAllByLocale(SubjectServiceImpl.java:49)
+	at com.testing.controller.command.other.student.SubjectPage.execute(SubjectPage.java:21)
+	at com.testing.controller.Servlet.processRequest(Servlet.java:29)
+	at com.testing.controller.Servlet.doPost(Servlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.testing.controller.filter.LocaleFilter.doFilter(LocaleFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-18 19:22:56 INFO  SubjectPage:22 - Execute
+2021-05-18 19:24:40 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:24:43 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:24:44 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:24:57 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:24:58 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:24:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:24:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:24:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:24:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:24:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:24:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:24:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:24:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:24:59 INFO  CommandFactory:33 - Command get
+2021-05-18 19:24:59 INFO  CommandFactory:33 - Command get
+2021-05-18 19:24:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:24:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:24:59 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 19:24:59 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 19:25:02 INFO  LoginCommand:34 - User login
+2021-05-18 19:25:02 INFO  LoginCommand:34 - User login
+2021-05-18 19:25:02 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:25:02 INFO  CommandFactory:33 - Command get
+2021-05-18 19:25:02 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 19:25:02 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 19:25:02 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 19:25:07 INFO  LocaleFilter:33 - Do locale filter
+2021-05-18 19:25:07 INFO  CommandFactory:33 - Command get
+2021-05-18 19:28:46 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 19:28:46 INFO  SubjectDaoImpl:101 - Didn't find any subject
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: e_locale = character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 35
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at com.testing.dao.impl.SubjectDaoImpl.getAllByLocale(SubjectDaoImpl.java:96)
+	at com.testing.model.service.impl.SubjectServiceImpl.getAllByLocale(SubjectServiceImpl.java:49)
+	at com.testing.controller.command.other.student.SubjectPage.execute(SubjectPage.java:21)
+	at com.testing.controller.Servlet.processRequest(Servlet.java:29)
+	at com.testing.controller.Servlet.doPost(Servlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.testing.controller.filter.LocaleFilter.doFilter(LocaleFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-18 19:28:46 INFO  SubjectPage:22 - Execute
+2021-05-18 19:29:49 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:29:53 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:29:53 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:30:01 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:30:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:30:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:30:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:30:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:30:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:30:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:30:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:30:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:30:02 INFO  CommandFactory:33 - Command get
+2021-05-18 19:30:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:30:02 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 19:30:03 INFO  LoginCommand:34 - User login
+2021-05-18 19:30:03 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:30:03 INFO  CommandFactory:33 - Command get
+2021-05-18 19:30:03 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 19:30:03 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 19:30:03 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 19:30:06 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:30:06 INFO  CommandFactory:33 - Command get
+2021-05-18 19:36:08 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 19:42:20 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:43:00 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:44:01 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:45:01 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:47:03 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:47:19 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:48:36 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:48:37 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:48:49 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:48:49 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:48:57 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:48:57 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:49:20 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:49:22 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:49:22 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:49:22 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:49:22 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:49:22 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:49:22 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:49:22 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:49:22 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:49:22 INFO  CommandFactory:33 - Command get
+2021-05-18 19:49:22 INFO  DaoFactory:25 - dao factory
+2021-05-18 19:49:22 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 19:49:24 INFO  LoginCommand:34 - User login
+2021-05-18 19:49:24 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:49:24 INFO  CommandFactory:33 - Command get
+2021-05-18 19:49:24 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 19:49:24 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 19:49:24 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 19:50:15 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:50:15 INFO  CommandFactory:33 - Command get
+2021-05-18 19:50:15 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 19:50:15 INFO  SubjectDaoImpl:101 - Didn't find any subject
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: e_locale = character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 35
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at com.testing.dao.impl.SubjectDaoImpl.getAllByLocale(SubjectDaoImpl.java:96)
+	at com.testing.model.service.impl.SubjectServiceImpl.getAllByLocale(SubjectServiceImpl.java:49)
+	at com.testing.controller.command.other.student.SubjectPage.execute(SubjectPage.java:21)
+	at com.testing.controller.Servlet.processRequest(Servlet.java:29)
+	at com.testing.controller.Servlet.doPost(Servlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.testing.controller.filter.LocaleFilter.doFilter(LocaleFilter.java:44)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-18 19:50:15 INFO  SubjectPage:22 - Execute
+2021-05-18 19:50:20 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:50:20 INFO  CommandFactory:33 - Command get
+2021-05-18 19:50:20 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-18 19:50:21 INFO  TestCommandPage:25 - Execute
+2021-05-18 19:50:57 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:50:57 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:50:57 INFO  CommandFactory:33 - Command get
+2021-05-18 19:50:57 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-18 19:50:57 INFO  TestCommandPage:25 - Execute
+2021-05-18 19:50:59 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:50:59 INFO  CommandFactory:33 - Command get
+2021-05-18 19:50:59 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:50:59 INFO  CommandFactory:33 - Command get
+2021-05-18 19:50:59 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 19:50:59 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 19:50:59 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 19:55:17 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:55:45 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:56:18 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:56:37 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 19:58:08 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 20:02:27 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 20:03:32 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 20:03:45 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 20:03:52 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 20:05:56 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:05:56 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:05:56 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:05:56 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:05:56 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:05:56 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:05:56 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:05:56 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:05:56 INFO  CommandFactory:33 - Command get
+2021-05-18 20:05:56 INFO  PageErrorCommand:15 - execute
+2021-05-18 20:06:27 INFO  CommandFactory:33 - Command get
+2021-05-18 20:06:27 INFO  PageErrorCommand:15 - execute
+2021-05-18 20:06:29 INFO  CommandFactory:33 - Command get
+2021-05-18 20:06:29 INFO  PageErrorCommand:15 - execute
+2021-05-18 20:06:30 INFO  CommandFactory:33 - Command get
+2021-05-18 20:06:30 INFO  MainCommand:21 - Main command execute
+2021-05-18 20:06:30 INFO  CommandFactory:33 - Command get
+2021-05-18 20:07:15 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 20:08:10 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 20:08:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:08:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:08:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:08:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:08:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:08:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:08:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:08:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:08:24 INFO  CommandFactory:33 - Command get
+2021-05-18 20:08:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:08:24 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 20:08:25 INFO  LoginCommand:34 - User login
+2021-05-18 20:08:25 INFO  CommandFactory:33 - Command get
+2021-05-18 20:08:25 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 20:08:25 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 20:08:25 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 20:08:28 INFO  CommandFactory:33 - Command get
+2021-05-18 20:08:28 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 20:08:29 INFO  SubjectDaoImpl:101 - Didn't find any subject
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: e_locale = character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 35
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at com.testing.dao.impl.SubjectDaoImpl.getAllByLocale(SubjectDaoImpl.java:96)
+	at com.testing.model.service.impl.SubjectServiceImpl.getAllByLocale(SubjectServiceImpl.java:49)
+	at com.testing.controller.command.other.student.SubjectPage.execute(SubjectPage.java:21)
+	at com.testing.controller.Servlet.processRequest(Servlet.java:29)
+	at com.testing.controller.Servlet.doPost(Servlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-18 20:08:29 INFO  SubjectPage:22 - Execute
+2021-05-18 20:08:31 INFO  CommandFactory:33 - Command get
+2021-05-18 20:08:31 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-18 20:08:32 INFO  TestCommandPage:25 - Execute
+2021-05-18 20:08:33 INFO  CommandFactory:33 - Command get
+2021-05-18 20:08:33 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-18 20:08:33 INFO  PassCommandPage:24 - Pass command execute
+2021-05-18 20:08:35 INFO  CommandFactory:33 - Command get
+2021-05-18 20:08:35 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-18 20:08:35 INFO  PassCommandPage:24 - Pass command execute
+2021-05-18 20:08:36 INFO  CommandFactory:33 - Command get
+2021-05-18 20:08:36 INFO  TestServiceImpl:54 - The service searches for a test by name
+2021-05-18 20:08:36 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-18 20:11:06 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 20:12:34 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:12:34 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:12:34 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:12:34 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:12:34 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:12:34 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:12:34 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:12:34 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:12:34 INFO  CommandFactory:33 - Command get
+2021-05-18 20:12:34 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:12:34 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 20:12:35 INFO  LoginCommand:34 - User login
+2021-05-18 20:12:35 INFO  CommandFactory:33 - Command get
+2021-05-18 20:12:35 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 20:12:35 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 20:12:35 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 20:12:39 INFO  CommandFactory:33 - Command get
+2021-05-18 20:12:39 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 20:12:39 INFO  SubjectDaoImpl:101 - Didn't find any subject
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: e_locale = character varying
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.
+  пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 35
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at com.testing.dao.impl.SubjectDaoImpl.getAllByLocale(SubjectDaoImpl.java:96)
+	at com.testing.model.service.impl.SubjectServiceImpl.getAllByLocale(SubjectServiceImpl.java:49)
+	at com.testing.controller.command.other.student.SubjectPage.execute(SubjectPage.java:21)
+	at com.testing.controller.Servlet.processRequest(Servlet.java:29)
+	at com.testing.controller.Servlet.doPost(Servlet.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-05-18 20:12:39 INFO  SubjectPage:22 - Execute
+2021-05-18 20:12:41 INFO  CommandFactory:33 - Command get
+2021-05-18 20:12:41 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-18 20:12:41 INFO  TestCommandPage:25 - Execute
+2021-05-18 20:12:58 INFO  CommandFactory:33 - Command get
+2021-05-18 20:12:58 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-18 20:12:58 INFO  PassCommandPage:24 - Pass command execute
+2021-05-18 20:12:59 INFO  CommandFactory:33 - Command get
+2021-05-18 20:12:59 INFO  TestServiceImpl:54 - The service searches for a test by name
+2021-05-18 20:12:59 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-18 20:24:04 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 20:24:10 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 20:24:51 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:24:51 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:24:51 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:24:52 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:24:52 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:24:52 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:24:52 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:24:52 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:24:52 INFO  CommandFactory:33 - Command get
+2021-05-18 20:24:52 INFO  CommandFactory:33 - Command get
+2021-05-18 20:24:52 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:24:52 INFO  DaoFactory:25 - dao factory
+2021-05-18 20:24:52 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 20:24:52 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 20:25:02 INFO  LoginCommand:34 - User login
+2021-05-18 20:25:02 INFO  LoginCommand:34 - User login
+2021-05-18 20:25:02 INFO  CommandFactory:33 - Command get
+2021-05-18 20:25:02 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 20:25:02 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 20:25:02 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 20:25:15 INFO  CommandFactory:33 - Command get
+2021-05-18 21:44:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:44:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:44:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:44:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:44:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:44:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:44:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:44:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:44:59 INFO  CommandFactory:33 - Command get
+2021-05-18 21:44:59 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:44:59 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 21:45:01 INFO  LoginCommand:34 - User login
+2021-05-18 21:45:01 INFO  CommandFactory:33 - Command get
+2021-05-18 21:45:01 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 21:45:01 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 21:45:01 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 21:45:11 INFO  CommandFactory:33 - Command get
+2021-05-18 21:45:35 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 21:45:35 INFO  SubjectDaoImpl:119 - Didn't find any subject
+2021-05-18 21:45:40 INFO  SubjectPage:21 - Execute
+2021-05-18 21:47:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:47:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:47:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:47:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:47:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:47:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:47:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:47:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:47:24 INFO  CommandFactory:33 - Command get
+2021-05-18 21:47:24 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:47:24 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 21:47:26 INFO  LoginCommand:34 - User login
+2021-05-18 21:47:26 INFO  CommandFactory:33 - Command get
+2021-05-18 21:47:26 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 21:47:26 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 21:47:26 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 21:47:32 INFO  CommandFactory:33 - Command get
+2021-05-18 21:47:32 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 21:47:32 INFO  SubjectDaoImpl:119 - Didn't find any subject
+2021-05-18 21:47:32 INFO  SubjectPage:21 - Execute
+2021-05-18 21:53:01 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:53:01 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:53:01 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:53:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:53:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:53:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:53:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:53:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:53:02 INFO  CommandFactory:33 - Command get
+2021-05-18 21:53:02 INFO  DaoFactory:25 - dao factory
+2021-05-18 21:53:02 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 21:53:08 INFO  LoginCommand:34 - User login
+2021-05-18 21:53:08 INFO  CommandFactory:33 - Command get
+2021-05-18 21:53:08 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 21:53:08 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 21:53:08 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 21:53:13 INFO  CommandFactory:33 - Command get
+2021-05-18 21:53:22 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 21:56:39 INFO  SubjectDaoImpl:119 - Didn't find any subject
+2021-05-18 21:56:39 INFO  SubjectPage:21 - Execute
+2021-05-18 22:13:25 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:13:25 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:13:25 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:13:25 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:13:25 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:13:25 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:13:25 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:13:25 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:13:25 INFO  CommandFactory:33 - Command get
+2021-05-18 22:13:25 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:13:25 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 22:13:27 INFO  LoginCommand:34 - User login
+2021-05-18 22:13:27 INFO  CommandFactory:33 - Command get
+2021-05-18 22:13:27 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 22:13:27 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 22:13:27 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 22:13:40 INFO  CommandFactory:33 - Command get
+2021-05-18 22:13:57 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 22:18:34 INFO  SubjectDaoImpl:119 - Didn't find any subject
+2021-05-18 22:18:34 INFO  SubjectPage:21 - Execute
+2021-05-18 22:20:09 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:20:09 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:20:09 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:20:09 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:20:09 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:20:09 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:20:09 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:20:09 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:20:09 INFO  CommandFactory:33 - Command get
+2021-05-18 22:20:09 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:20:09 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 22:20:10 INFO  LoginCommand:34 - User login
+2021-05-18 22:20:11 INFO  CommandFactory:33 - Command get
+2021-05-18 22:20:11 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 22:20:11 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 22:20:11 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 22:20:15 INFO  CommandFactory:33 - Command get
+2021-05-18 22:20:18 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 22:20:34 INFO  SubjectPage:21 - Execute
+2021-05-18 22:21:50 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:21:50 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:21:50 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:21:50 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:21:50 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:21:50 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:21:50 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:21:50 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:21:50 INFO  CommandFactory:33 - Command get
+2021-05-18 22:21:50 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:21:50 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 22:21:51 INFO  LoginCommand:34 - User login
+2021-05-18 22:21:51 INFO  CommandFactory:33 - Command get
+2021-05-18 22:21:51 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 22:21:51 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 22:21:51 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 22:21:54 INFO  CommandFactory:33 - Command get
+2021-05-18 22:21:54 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 22:21:54 INFO  SubjectPage:21 - Execute
+2021-05-18 22:22:01 INFO  CommandFactory:33 - Command get
+2021-05-18 22:22:01 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-18 22:22:01 INFO  SubjectPage:21 - Execute
+2021-05-18 22:23:36 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 22:32:49 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 22:33:00 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:33:01 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:33:01 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:33:01 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:33:01 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:33:01 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:33:01 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:33:01 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:33:01 INFO  CommandFactory:33 - Command get
+2021-05-18 22:33:01 INFO  DaoFactory:25 - dao factory
+2021-05-18 22:33:01 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-18 22:33:08 INFO  LoginCommand:34 - User login
+2021-05-18 22:33:08 INFO  CommandFactory:33 - Command get
+2021-05-18 22:33:08 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-18 22:33:08 INFO  TestResultServiceImpl:56 - return list result
+2021-05-18 22:33:08 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-18 22:39:59 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 22:56:18 INFO  LocaleFilter:32 - Do locale filter
+2021-05-18 23:01:56 INFO  LocaleFilter:32 - Do locale filter
+2021-05-19 14:07:53 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:07:53 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:07:53 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:07:53 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:07:53 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:07:53 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:07:53 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:07:53 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:07:53 INFO  CommandFactory:35 - Command get
+2021-05-19 14:07:53 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:07:53 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 14:07:55 INFO  LoginCommand:34 - User login
+2021-05-19 14:07:55 INFO  CommandFactory:35 - Command get
+2021-05-19 14:07:55 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:07:55 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:07:55 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:08:02 INFO  CommandFactory:35 - Command get
+2021-05-19 14:08:02 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:08:02 INFO  SubjectPage:21 - Execute
+2021-05-19 14:08:07 INFO  CommandFactory:35 - Command get
+2021-05-19 14:08:07 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:08:07 INFO  SubjectPage:21 - Execute
+2021-05-19 14:08:12 INFO  CommandFactory:35 - Command get
+2021-05-19 14:08:12 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:08:12 INFO  SubjectPage:21 - Execute
+2021-05-19 14:08:37 INFO  CommandFactory:35 - Command get
+2021-05-19 14:08:37 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:08:37 INFO  SubjectPage:21 - Execute
+2021-05-19 14:08:42 INFO  CommandFactory:35 - Command get
+2021-05-19 14:08:42 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:08:42 INFO  SubjectPage:21 - Execute
+2021-05-19 14:08:44 INFO  CommandFactory:35 - Command get
+2021-05-19 14:08:44 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-19 14:08:44 INFO  TestCommandPage:25 - Execute
+2021-05-19 14:08:48 INFO  CommandFactory:35 - Command get
+2021-05-19 14:08:48 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:08:48 INFO  PassCommandPage:24 - Pass command execute
+2021-05-19 14:10:17 INFO  CommandFactory:35 - Command get
+2021-05-19 14:10:17 INFO  CommandFactory:35 - Command get
+2021-05-19 14:10:17 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:10:17 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:10:17 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:10:23 INFO  RoleFilter:25 - Do Filter
+2021-05-19 14:10:40 INFO  CommandFactory:35 - Command get
+2021-05-19 14:10:40 INFO  CommandFactory:35 - Command get
+2021-05-19 14:10:40 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:10:40 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:10:40 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:12:48 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:12:48 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:12:48 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:12:48 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:12:48 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:12:48 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:12:48 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:12:48 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:12:48 INFO  CommandFactory:35 - Command get
+2021-05-19 14:12:48 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:12:48 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 14:12:50 INFO  LoginCommand:34 - User login
+2021-05-19 14:12:50 INFO  CommandFactory:35 - Command get
+2021-05-19 14:12:50 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:12:50 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:12:50 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:12:53 INFO  CommandFactory:35 - Command get
+2021-05-19 14:12:53 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:13:09 INFO  SubjectPage:21 - Execute
+2021-05-19 14:13:16 INFO  CommandFactory:35 - Command get
+2021-05-19 14:13:16 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-19 14:13:16 INFO  TestCommandPage:25 - Execute
+2021-05-19 14:13:23 INFO  CommandFactory:35 - Command get
+2021-05-19 14:13:23 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:13:23 INFO  PassCommandPage:24 - Pass command execute
+2021-05-19 14:15:12 INFO  CommandFactory:35 - Command get
+2021-05-19 14:16:03 INFO  TestServiceImpl:54 - The service searches for a test by name
+2021-05-19 14:16:03 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:16:03 INFO  TestResultServiceImpl:49 - throw exception if result exist
+2021-05-19 14:19:50 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:19:50 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:19:50 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:19:50 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:19:50 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:19:50 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:19:50 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:19:50 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:19:50 INFO  CommandFactory:35 - Command get
+2021-05-19 14:19:50 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:19:50 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 14:19:53 INFO  LoginCommand:34 - User login
+2021-05-19 14:19:53 INFO  CommandFactory:35 - Command get
+2021-05-19 14:19:53 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:19:53 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:19:53 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:19:58 INFO  CommandFactory:35 - Command get
+2021-05-19 14:19:58 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:19:58 INFO  SubjectPage:21 - Execute
+2021-05-19 14:20:01 INFO  CommandFactory:35 - Command get
+2021-05-19 14:20:01 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-19 14:20:01 INFO  TestCommandPage:25 - Execute
+2021-05-19 14:20:03 INFO  CommandFactory:35 - Command get
+2021-05-19 14:20:03 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:20:03 INFO  PassCommandPage:24 - Pass command execute
+2021-05-19 14:20:14 INFO  CommandFactory:35 - Command get
+2021-05-19 14:20:35 INFO  TestServiceImpl:54 - The service searches for a test by name
+2021-05-19 14:24:00 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:24:00 INFO  TestResultServiceImpl:49 - throw exception if result exist
+2021-05-19 14:25:25 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:25:25 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:25:25 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:25:25 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:25:25 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:25:25 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:25:25 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:25:25 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:25:25 INFO  CommandFactory:35 - Command get
+2021-05-19 14:25:25 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:25:25 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 14:25:26 INFO  LoginCommand:34 - User login
+2021-05-19 14:25:26 INFO  CommandFactory:35 - Command get
+2021-05-19 14:25:26 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:25:26 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:25:26 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:25:30 INFO  CommandFactory:35 - Command get
+2021-05-19 14:25:30 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:25:30 INFO  SubjectPage:21 - Execute
+2021-05-19 14:25:33 INFO  CommandFactory:35 - Command get
+2021-05-19 14:25:33 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-19 14:25:33 INFO  TestCommandPage:25 - Execute
+2021-05-19 14:25:36 INFO  CommandFactory:35 - Command get
+2021-05-19 14:25:36 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:25:36 INFO  PassCommandPage:24 - Pass command execute
+2021-05-19 14:26:00 INFO  CommandFactory:35 - Command get
+2021-05-19 14:28:23 INFO  TestServiceImpl:54 - The service searches for a test by name
+2021-05-19 14:28:23 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:28:23 INFO  TestResultServiceImpl:49 - throw exception if result exist
+2021-05-19 14:32:41 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:32:41 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:32:41 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:32:41 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:32:41 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:32:41 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:32:41 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:32:41 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:32:41 INFO  CommandFactory:35 - Command get
+2021-05-19 14:32:41 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:32:41 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 14:32:42 INFO  LoginCommand:34 - User login
+2021-05-19 14:32:42 INFO  CommandFactory:35 - Command get
+2021-05-19 14:32:42 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:32:42 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:32:43 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:32:45 INFO  CommandFactory:35 - Command get
+2021-05-19 14:32:45 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:32:45 INFO  SubjectPage:21 - Execute
+2021-05-19 14:32:48 INFO  CommandFactory:35 - Command get
+2021-05-19 14:32:48 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-19 14:32:48 INFO  TestCommandPage:25 - Execute
+2021-05-19 14:32:51 INFO  CommandFactory:35 - Command get
+2021-05-19 14:32:51 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:32:51 INFO  PassCommandPage:24 - Pass command execute
+2021-05-19 14:34:27 INFO  CommandFactory:35 - Command get
+2021-05-19 14:35:05 INFO  TestServiceImpl:54 - The service searches for a test by name
+2021-05-19 14:35:05 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:35:09 INFO  TestResultServiceImpl:49 - throw exception if result exist
+2021-05-19 14:35:15 INFO  CommandFactory:35 - Command get
+2021-05-19 14:35:15 INFO  CommandFactory:35 - Command get
+2021-05-19 14:35:15 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:35:15 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:35:15 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:36:12 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:36:12 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:36:12 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:36:12 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:36:12 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:36:12 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:36:12 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:36:12 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:36:12 INFO  CommandFactory:35 - Command get
+2021-05-19 14:36:12 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:36:12 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 14:36:17 INFO  LoginCommand:34 - User login
+2021-05-19 14:36:17 INFO  CommandFactory:35 - Command get
+2021-05-19 14:36:17 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:36:17 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:36:17 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:36:21 INFO  CommandFactory:35 - Command get
+2021-05-19 14:36:21 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:36:21 INFO  SubjectPage:21 - Execute
+2021-05-19 14:36:23 INFO  CommandFactory:35 - Command get
+2021-05-19 14:36:23 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-19 14:36:23 INFO  TestCommandPage:25 - Execute
+2021-05-19 14:36:26 INFO  CommandFactory:35 - Command get
+2021-05-19 14:36:26 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:36:26 INFO  PassCommandPage:24 - Pass command execute
+2021-05-19 14:37:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:37:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:37:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:37:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:37:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:37:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:37:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:37:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:37:55 INFO  CommandFactory:35 - Command get
+2021-05-19 14:37:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:37:55 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 14:37:56 INFO  LoginCommand:34 - User login
+2021-05-19 14:37:56 INFO  CommandFactory:35 - Command get
+2021-05-19 14:37:56 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:37:56 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:37:56 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:37:59 INFO  LocaleFilter:32 - Do locale filter
+2021-05-19 14:37:59 INFO  CommandFactory:35 - Command get
+2021-05-19 14:37:59 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:37:59 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:37:59 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:38:03 INFO  LocaleFilter:32 - Do locale filter
+2021-05-19 14:38:03 INFO  CommandFactory:35 - Command get
+2021-05-19 14:38:03 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:38:03 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:38:03 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:38:09 INFO  CommandFactory:35 - Command get
+2021-05-19 14:38:09 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:38:09 INFO  SubjectPage:21 - Execute
+2021-05-19 14:38:12 INFO  CommandFactory:35 - Command get
+2021-05-19 14:38:12 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-19 14:38:12 INFO  TestCommandPage:25 - Execute
+2021-05-19 14:38:15 INFO  CommandFactory:35 - Command get
+2021-05-19 14:38:15 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:38:15 INFO  PassCommandPage:24 - Pass command execute
+2021-05-19 14:38:21 INFO  CommandFactory:35 - Command get
+2021-05-19 14:38:21 INFO  CommandFactory:35 - Command get
+2021-05-19 14:38:21 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:38:21 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:38:21 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:38:22 INFO  CommandFactory:35 - Command get
+2021-05-19 14:38:22 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 14:38:22 INFO  SubjectPage:21 - Execute
+2021-05-19 14:38:27 INFO  CommandFactory:35 - Command get
+2021-05-19 14:38:27 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-19 14:38:27 INFO  TestCommandPage:25 - Execute
+2021-05-19 14:38:32 INFO  CommandFactory:35 - Command get
+2021-05-19 14:38:32 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:38:32 INFO  PassCommandPage:24 - Pass command execute
+2021-05-19 14:39:56 INFO  CommandFactory:35 - Command get
+2021-05-19 14:40:13 INFO  TestServiceImpl:54 - The service searches for a test by name
+2021-05-19 14:40:14 INFO  QuestionServiceImpl:60 - The service looks for all questions
+2021-05-19 14:42:20 INFO  TestResultServiceImpl:46 - CalculateResult
+2021-05-19 14:42:25 INFO  ResultCommand:45 - Calculate result execute
+2021-05-19 14:42:41 INFO  CommandFactory:35 - Command get
+2021-05-19 14:42:41 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 14:42:41 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 14:42:41 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 14:54:29 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:54:29 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:54:29 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:54:29 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:54:29 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:54:29 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:54:29 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:54:29 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:54:29 INFO  CommandFactory:35 - Command get
+2021-05-19 14:54:29 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:54:29 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 14:54:30 INFO  LoginCommand:34 - User login
+2021-05-19 14:54:30 INFO  RoleFilter:25 - Do Filter
+2021-05-19 14:54:30 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 14:54:30 INFO  CommandFactory:35 - Command get
+2021-05-19 14:54:30 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 14:57:58 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:57:58 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:57:58 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:57:58 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:57:58 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:57:58 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:57:58 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:57:58 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:57:58 INFO  CommandFactory:35 - Command get
+2021-05-19 14:57:58 INFO  DaoFactory:25 - dao factory
+2021-05-19 14:57:58 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 14:58:00 INFO  LoginCommand:34 - User login
+2021-05-19 14:58:00 INFO  RoleFilter:25 - Do Filter
+2021-05-19 14:58:00 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 14:58:00 INFO  CommandFactory:35 - Command get
+2021-05-19 14:58:00 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 15:02:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:02:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:02:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:02:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:02:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:02:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:02:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:02:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:02:00 INFO  CommandFactory:35 - Command get
+2021-05-19 15:02:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:02:00 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 15:02:02 INFO  LoginCommand:34 - User login
+2021-05-19 15:02:02 INFO  RoleFilter:25 - Do Filter
+2021-05-19 15:02:02 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 15:02:02 INFO  CommandFactory:35 - Command get
+2021-05-19 15:02:02 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 15:03:25 INFO  RoleFilter:25 - Do Filter
+2021-05-19 15:03:25 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 15:03:25 INFO  CommandFactory:35 - Command get
+2021-05-19 15:03:25 INFO  PageErrorCommand:15 - execute
+2021-05-19 15:03:29 INFO  RoleFilter:25 - Do Filter
+2021-05-19 15:03:29 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 15:03:29 INFO  CommandFactory:35 - Command get
+2021-05-19 15:03:29 INFO  PageErrorCommand:15 - execute
+2021-05-19 15:03:35 INFO  CommandFactory:35 - Command get
+2021-05-19 15:03:35 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 15:03:35 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 15:03:35 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 15:03:47 INFO  CommandFactory:35 - Command get
+2021-05-19 15:03:47 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 15:03:47 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 15:03:47 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 15:05:08 INFO  RoleFilter:25 - Do Filter
+2021-05-19 15:05:08 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 15:05:08 INFO  CommandFactory:35 - Command get
+2021-05-19 15:05:08 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 15:05:22 INFO  CommandFactory:35 - Command get
+2021-05-19 15:05:22 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 15:05:22 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 15:05:22 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 15:07:23 INFO  RoleFilter:25 - Do Filter
+2021-05-19 15:07:23 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:07:23 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:07:23 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:07:23 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:07:23 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:07:23 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:07:23 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:07:23 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:07:23 INFO  CommandFactory:35 - Command get
+2021-05-19 15:07:23 INFO  DaoFactory:25 - dao factory
+2021-05-19 15:07:23 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 15:07:25 INFO  LoginCommand:34 - User login
+2021-05-19 15:07:25 INFO  RoleFilter:25 - Do Filter
+2021-05-19 15:07:25 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 15:07:25 INFO  CommandFactory:35 - Command get
+2021-05-19 15:07:25 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 15:07:29 INFO  RoleFilter:25 - Do Filter
+2021-05-19 15:07:42 INFO  RoleFilter:25 - Do Filter
+2021-05-19 15:07:42 INFO  CommandFactory:35 - Command get
+2021-05-19 15:07:42 INFO  RoleFilter:25 - Do Filter
+2021-05-19 15:07:42 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 15:07:42 INFO  CommandFactory:35 - Command get
+2021-05-19 15:07:42 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 15:07:47 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:21:39 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:21:40 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:21:40 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:21:40 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:21:40 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:21:40 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:21:40 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:21:40 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:21:40 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:21:40 INFO  CommandFactory:35 - Command get
+2021-05-19 17:21:40 INFO  MainCommand:21 - Main command execute
+2021-05-19 17:21:40 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:21:40 INFO  CommandFactory:35 - Command get
+2021-05-19 17:21:49 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:21:49 INFO  CommandFactory:35 - Command get
+2021-05-19 17:21:49 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:21:49 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 17:21:55 INFO  LoginCommand:34 - User login
+2021-05-19 17:21:55 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:21:55 INFO  CommandFactory:35 - Command get
+2021-05-19 17:21:55 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 17:21:55 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 17:21:55 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 17:22:03 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:22:09 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:22:11 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:22:11 INFO  CommandFactory:35 - Command get
+2021-05-19 17:22:11 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:22:11 INFO  CommandFactory:35 - Command get
+2021-05-19 17:22:11 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 17:22:11 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 17:22:11 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 17:22:19 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:22:34 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:22:34 INFO  CommandFactory:35 - Command get
+2021-05-19 17:22:34 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:22:34 INFO  CommandFactory:35 - Command get
+2021-05-19 17:22:34 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 17:22:34 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 17:22:34 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 17:22:46 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:22:46 INFO  CommandFactory:35 - Command get
+2021-05-19 17:22:46 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:22:46 INFO  CommandFactory:35 - Command get
+2021-05-19 17:22:46 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 17:22:46 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 17:22:46 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 17:22:48 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:22:48 INFO  CommandFactory:35 - Command get
+2021-05-19 17:22:48 INFO  LogoutCommand:16 - Command Log out
+2021-05-19 17:22:48 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:25:54 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:25:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:25:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:25:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:25:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:25:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:25:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:25:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:25:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:25:55 INFO  CommandFactory:35 - Command get
+2021-05-19 17:25:55 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:25:55 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 17:25:58 INFO  LoginCommand:34 - User login
+2021-05-19 17:25:58 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:25:58 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:25:58 INFO  CommandFactory:35 - Command get
+2021-05-19 17:25:58 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 17:26:03 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:26:10 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:10 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:10 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:26:10 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:10 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:10 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 17:26:14 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:26:16 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:16 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:16 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:26:16 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:16 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:16 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 17:26:18 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:18 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:18 INFO  LogoutCommand:16 - Command Log out
+2021-05-19 17:26:18 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:18 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:26 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:26 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:26 INFO  DaoFactory:25 - dao factory
+2021-05-19 17:26:26 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 17:26:26 INFO  LoginCommand:34 - User login
+2021-05-19 17:26:26 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:26:26 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:26 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:26 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 17:26:33 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:26:35 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:35 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:35 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:26:35 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:35 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:35 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 17:26:41 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:26:41 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:41 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:41 INFO  PageErrorCommand:15 - execute
+2021-05-19 17:26:47 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:47 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:47 INFO  RoleFilter:25 - Do Filter
+2021-05-19 17:26:47 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 17:26:47 INFO  CommandFactory:35 - Command get
+2021-05-19 17:26:47 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:23:58 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:24:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:24:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:24:00 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:24:01 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:24:01 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:24:01 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:24:01 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:24:01 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:24:01 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:24:01 INFO  CommandFactory:37 - Command get
+2021-05-19 20:24:01 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:24:01 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:24:08 INFO  LoginCommand:34 - User login
+2021-05-19 20:24:08 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:24:08 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:24:08 INFO  CommandFactory:37 - Command get
+2021-05-19 20:24:08 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:24:28 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:24:28 INFO  CommandFactory:37 - Command get
+2021-05-19 20:24:28 INFO  PageErrorCommand:15 - execute
+2021-05-19 20:24:33 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:24:33 INFO  CommandFactory:37 - Command get
+2021-05-19 20:24:33 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:24:33 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:24:33 INFO  CommandFactory:37 - Command get
+2021-05-19 20:24:33 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:24:36 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:24:55 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:24:55 INFO  CommandFactory:37 - Command get
+2021-05-19 20:24:55 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:24:55 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:24:55 INFO  CommandFactory:37 - Command get
+2021-05-19 20:24:55 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:25:11 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:25:14 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:25:14 INFO  CommandFactory:37 - Command get
+2021-05-19 20:25:14 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:25:14 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:25:14 INFO  CommandFactory:37 - Command get
+2021-05-19 20:25:14 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:25:17 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:25:17 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:25:17 INFO  CommandFactory:37 - Command get
+2021-05-19 20:27:49 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:27:49 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:27:49 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:27:49 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:27:49 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:27:49 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:27:49 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:27:49 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:27:49 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:27:49 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:27:49 INFO  CommandFactory:37 - Command get
+2021-05-19 20:27:49 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:27:49 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:27:50 INFO  LoginCommand:34 - User login
+2021-05-19 20:27:50 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:27:50 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:27:50 INFO  CommandFactory:37 - Command get
+2021-05-19 20:27:50 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:27:50 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:27:50 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:27:58 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:28:03 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:28:03 INFO  CommandFactory:37 - Command get
+2021-05-19 20:28:03 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:28:03 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:28:03 INFO  CommandFactory:37 - Command get
+2021-05-19 20:28:03 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:28:03 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:28:03 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:28:04 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:28:04 INFO  CommandFactory:37 - Command get
+2021-05-19 20:28:04 INFO  LogoutCommand:16 - Command Log out
+2021-05-19 20:28:04 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:28:04 INFO  CommandFactory:37 - Command get
+2021-05-19 20:28:12 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:28:12 INFO  CommandFactory:37 - Command get
+2021-05-19 20:28:12 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:28:12 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:28:12 INFO  LoginCommand:34 - User login
+2021-05-19 20:28:12 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:28:12 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:28:12 INFO  CommandFactory:37 - Command get
+2021-05-19 20:28:12 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:28:22 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:28:22 INFO  CommandFactory:37 - Command get
+2021-05-19 20:28:35 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:28:35 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:28:35 INFO  CommandFactory:37 - Command get
+2021-05-19 20:28:35 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:28:51 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:28:51 INFO  CommandFactory:37 - Command get
+2021-05-19 20:28:57 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:28:57 INFO  CommandFactory:37 - Command get
+2021-05-19 20:28:57 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:28:57 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:28:57 INFO  LoginCommand:34 - User login
+2021-05-19 20:28:57 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:28:57 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:28:57 INFO  CommandFactory:37 - Command get
+2021-05-19 20:28:57 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:28:57 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:28:57 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:29:02 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:29:04 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:29:04 INFO  CommandFactory:37 - Command get
+2021-05-19 20:29:04 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:29:04 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:29:04 INFO  CommandFactory:37 - Command get
+2021-05-19 20:29:04 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:29:04 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:29:04 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:29:07 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:29:07 INFO  CommandFactory:37 - Command get
+2021-05-19 20:29:07 INFO  LogoutCommand:16 - Command Log out
+2021-05-19 20:29:07 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:29:07 INFO  CommandFactory:37 - Command get
+2021-05-19 20:29:10 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:29:20 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:29:32 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:29:32 INFO  CommandFactory:37 - Command get
+2021-05-19 20:29:41 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:29:41 INFO  CommandFactory:37 - Command get
+2021-05-19 20:29:41 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:29:41 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:29:58 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:29:58 INFO  CommandFactory:37 - Command get
+2021-05-19 20:29:58 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:29:58 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:30:09 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:30:09 INFO  CommandFactory:37 - Command get
+2021-05-19 20:30:10 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:30:10 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:30:10 INFO  CommandFactory:37 - Command get
+2021-05-19 20:30:15 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:30:15 INFO  CommandFactory:37 - Command get
+2021-05-19 20:30:15 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:30:15 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:31:32 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:32 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:32 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:32 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:32 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:32 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:32 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:33 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:33 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:33 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:33 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:33 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:33 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:33 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:33 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:37 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:37 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:37 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:31:37 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:31:37 INFO  LoginCommand:34 - User login
+2021-05-19 20:31:37 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:31:37 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:37 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:37 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:31:37 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:31:37 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:31:40 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:40 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:40 INFO  LogoutCommand:16 - Command Log out
+2021-05-19 20:31:40 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:40 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:48 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:48 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:48 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:31:48 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:31:48 INFO  LoginCommand:34 - User login
+2021-05-19 20:31:48 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:31:48 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:48 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:48 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:31:48 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:31:48 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:31:51 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:51 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:59 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:31:59 INFO  CommandFactory:37 - Command get
+2021-05-19 20:31:59 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:31:59 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:46:03 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:46:05 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:46:05 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:46:05 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:46:06 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:46:06 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:46:06 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:46:06 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:46:06 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:46:06 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:46:06 INFO  CommandFactory:37 - Command get
+2021-05-19 20:46:06 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:46:06 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:46:13 INFO  LoginCommand:34 - User login
+2021-05-19 20:46:13 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:46:13 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:46:13 INFO  CommandFactory:37 - Command get
+2021-05-19 20:46:13 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:46:42 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:46:42 INFO  CommandFactory:37 - Command get
+2021-05-19 20:46:56 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:46:56 INFO  CommandFactory:37 - Command get
+2021-05-19 20:46:56 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:46:56 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:46:56 INFO  LoginCommand:34 - User login
+2021-05-19 20:46:57 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:46:57 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:46:57 INFO  CommandFactory:37 - Command get
+2021-05-19 20:46:57 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:46:57 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:46:57 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:47:04 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:47:17 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:47:17 INFO  CommandFactory:37 - Command get
+2021-05-19 20:47:27 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:47:27 INFO  CommandFactory:37 - Command get
+2021-05-19 20:47:27 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:47:27 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:47:27 INFO  CommandFactory:37 - Command get
+2021-05-19 20:47:27 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:47:27 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:47:27 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:47:32 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:47:43 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:47:43 INFO  CommandFactory:37 - Command get
+2021-05-19 20:47:51 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:47:51 INFO  CommandFactory:37 - Command get
+2021-05-19 20:47:51 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:47:51 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:47:51 INFO  LoginCommand:34 - User login
+2021-05-19 20:47:51 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:47:51 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:47:51 INFO  CommandFactory:37 - Command get
+2021-05-19 20:47:51 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:47:54 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:47:57 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:47:57 INFO  CommandFactory:37 - Command get
+2021-05-19 20:47:57 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:47:57 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:47:57 INFO  CommandFactory:37 - Command get
+2021-05-19 20:47:57 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:48:01 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:48:01 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:48:01 INFO  CommandFactory:37 - Command get
+2021-05-19 20:48:09 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 20:48:13 INFO  SubjectPage:21 - Execute
+2021-05-19 20:48:32 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:48:32 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:48:32 INFO  CommandFactory:37 - Command get
+2021-05-19 20:48:32 INFO  PageErrorCommand:15 - execute
+2021-05-19 20:48:36 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:48:36 INFO  CommandFactory:37 - Command get
+2021-05-19 20:48:36 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:48:36 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:48:36 INFO  CommandFactory:37 - Command get
+2021-05-19 20:48:36 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:48:46 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:48:46 INFO  CommandFactory:37 - Command get
+2021-05-19 20:48:46 INFO  LogoutCommand:16 - Command Log out
+2021-05-19 20:48:46 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:48:46 INFO  CommandFactory:37 - Command get
+2021-05-19 20:50:22 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:51:29 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:51:35 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:51:35 INFO  CommandFactory:37 - Command get
+2021-05-19 20:51:39 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:51:39 INFO  CommandFactory:37 - Command get
+2021-05-19 20:51:39 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:51:39 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:51:39 INFO  LoginCommand:34 - User login
+2021-05-19 20:51:39 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:51:39 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:51:39 INFO  CommandFactory:37 - Command get
+2021-05-19 20:51:39 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:51:39 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:51:39 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:51:44 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:51:44 INFO  CommandFactory:37 - Command get
+2021-05-19 20:54:15 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:54:15 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:54:15 INFO  CommandFactory:37 - Command get
+2021-05-19 20:54:15 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:54:15 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:54:15 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:54:21 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:54:21 INFO  CommandFactory:37 - Command get
+2021-05-19 20:54:25 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:54:25 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:54:25 INFO  CommandFactory:37 - Command get
+2021-05-19 20:54:25 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:54:25 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:54:25 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:54:28 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:54:28 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:54:28 INFO  CommandFactory:37 - Command get
+2021-05-19 20:54:28 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:54:28 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:54:28 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:54:30 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:54:30 INFO  CommandFactory:37 - Command get
+2021-05-19 20:54:30 INFO  LogoutCommand:16 - Command Log out
+2021-05-19 20:54:30 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:54:30 INFO  CommandFactory:37 - Command get
+2021-05-19 20:54:33 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:55:23 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:55:25 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:55:25 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:55:25 INFO  CommandFactory:37 - Command get
+2021-05-19 20:55:27 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:55:36 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:55:40 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:55:40 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:55:40 INFO  CommandFactory:37 - Command get
+2021-05-19 20:55:44 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:55:44 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:55:44 INFO  CommandFactory:37 - Command get
+2021-05-19 20:55:48 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:55:48 INFO  CommandFactory:37 - Command get
+2021-05-19 20:55:48 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:55:48 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:55:48 INFO  LoginCommand:34 - User login
+2021-05-19 20:55:48 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:55:48 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:55:48 INFO  CommandFactory:37 - Command get
+2021-05-19 20:55:48 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:55:48 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:55:48 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:55:51 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:55:51 INFO  CommandFactory:37 - Command get
+2021-05-19 20:55:56 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:55:56 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:55:56 INFO  CommandFactory:37 - Command get
+2021-05-19 20:55:56 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-19 20:55:56 INFO  TestResultServiceImpl:56 - return list result
+2021-05-19 20:55:56 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-19 20:55:59 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:56:08 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:56:08 INFO  CommandFactory:37 - Command get
+2021-05-19 20:56:13 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:56:13 INFO  CommandFactory:37 - Command get
+2021-05-19 20:56:13 INFO  DaoFactory:25 - dao factory
+2021-05-19 20:56:13 INFO  UserServiceImpl:48 - The service searches for a user by login and password
+2021-05-19 20:56:13 INFO  LoginCommand:34 - User login
+2021-05-19 20:56:14 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:56:14 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:56:14 INFO  CommandFactory:37 - Command get
+2021-05-19 20:56:14 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:56:17 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:56:17 INFO  CommandFactory:37 - Command get
+2021-05-19 20:56:20 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:56:20 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:56:20 INFO  CommandFactory:37 - Command get
+2021-05-19 20:56:20 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:56:29 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:56:42 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:56:42 INFO  CommandFactory:37 - Command get
+2021-05-19 20:56:42 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:56:42 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:56:42 INFO  CommandFactory:37 - Command get
+2021-05-19 20:56:42 INFO  StudentCommandPage:22 - Admin command execute
+2021-05-19 20:56:48 INFO  RoleFilter:25 - Do Filter
+2021-05-19 20:56:48 INFO  AuthenticationFilter:21 - doFilter
+2021-05-19 20:56:48 INFO  CommandFactory:37 - Command get
+2021-05-19 20:56:48 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-19 20:56:48 INFO  SubjectPage:21 - Execute
+2021-05-20 15:20:16 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:20:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:20:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:20:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:20:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:20:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:20:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:20:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:20:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:20:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:20:17 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:20:17 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 15:20:19 INFO  CommandFactory:41 - Command get
+2021-05-20 15:21:14 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:21:14 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 15:21:16 INFO  LoginCommand:34 - User login
+2021-05-20 15:21:16 INFO  RoleFilter:25 - Do Filter
+2021-05-20 15:21:21 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:21:21 INFO  CommandFactory:41 - Command get
+2021-05-20 15:21:21 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 15:21:33 INFO  RoleFilter:25 - Do Filter
+2021-05-20 15:21:33 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:21:33 INFO  CommandFactory:41 - Command get
+2021-05-20 15:21:33 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 15:34:45 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:34:49 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:34:49 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:34:49 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:34:50 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:34:50 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:34:51 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:34:51 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:34:51 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:34:51 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:34:51 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:34:53 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 15:35:05 INFO  CommandFactory:41 - Command get
+2021-05-20 15:35:05 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:35:05 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 15:35:07 INFO  LoginCommand:34 - User login
+2021-05-20 15:35:07 INFO  RoleFilter:25 - Do Filter
+2021-05-20 15:35:07 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:35:07 INFO  CommandFactory:41 - Command get
+2021-05-20 15:35:07 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 15:35:26 INFO  RoleFilter:25 - Do Filter
+2021-05-20 15:35:26 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:35:26 INFO  CommandFactory:41 - Command get
+2021-05-20 15:35:26 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 15:43:21 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:43:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:43:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:43:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:43:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:43:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:43:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:43:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:43:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:43:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:43:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:43:24 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 15:43:25 INFO  CommandFactory:41 - Command get
+2021-05-20 15:43:25 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:43:25 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 15:43:28 INFO  LoginCommand:34 - User login
+2021-05-20 15:43:28 INFO  RoleFilter:25 - Do Filter
+2021-05-20 15:43:28 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:43:28 INFO  CommandFactory:41 - Command get
+2021-05-20 15:43:28 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 15:43:32 INFO  RoleFilter:25 - Do Filter
+2021-05-20 15:43:32 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:43:32 INFO  CommandFactory:41 - Command get
+2021-05-20 15:43:32 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 15:48:10 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:48:11 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:48:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:48:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:48:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:48:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:48:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:48:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:48:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:48:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:48:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:48:12 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 15:48:15 INFO  CommandFactory:41 - Command get
+2021-05-20 15:48:15 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:48:15 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 15:48:19 INFO  LoginCommand:34 - User login
+2021-05-20 15:48:19 INFO  RoleFilter:25 - Do Filter
+2021-05-20 15:48:19 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:48:19 INFO  CommandFactory:41 - Command get
+2021-05-20 15:48:19 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 15:48:22 INFO  RoleFilter:25 - Do Filter
+2021-05-20 15:48:22 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:48:22 INFO  CommandFactory:41 - Command get
+2021-05-20 15:48:22 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 15:55:10 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:55:10 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:55:10 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:55:10 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:55:10 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:55:10 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:55:10 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:55:10 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:55:10 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:55:10 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:55:10 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:55:11 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 15:55:13 INFO  CommandFactory:41 - Command get
+2021-05-20 15:55:13 INFO  DaoFactory:25 - dao factory
+2021-05-20 15:55:13 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 15:55:16 INFO  LoginCommand:34 - User login
+2021-05-20 15:55:16 INFO  RoleFilter:25 - Do Filter
+2021-05-20 15:55:16 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:55:16 INFO  CommandFactory:41 - Command get
+2021-05-20 15:55:16 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 15:55:20 INFO  RoleFilter:25 - Do Filter
+2021-05-20 15:55:20 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 15:55:20 INFO  CommandFactory:41 - Command get
+2021-05-20 15:55:20 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 16:01:16 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:01:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:01:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:01:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:01:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:01:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:01:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:01:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:01:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:01:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:01:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:01:17 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 16:01:17 INFO  CommandFactory:41 - Command get
+2021-05-20 16:01:17 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:01:17 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 16:01:19 INFO  LoginCommand:34 - User login
+2021-05-20 16:01:19 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:01:19 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:01:19 INFO  CommandFactory:41 - Command get
+2021-05-20 16:01:19 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 16:01:23 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:01:23 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:01:23 INFO  CommandFactory:41 - Command get
+2021-05-20 16:01:23 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 16:02:55 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:02:56 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:02:56 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:02:56 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:02:56 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:02:56 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:02:56 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:02:56 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:02:56 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:02:56 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:02:56 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:02:56 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 16:02:57 INFO  CommandFactory:41 - Command get
+2021-05-20 16:02:57 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:02:57 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 16:02:58 INFO  LoginCommand:34 - User login
+2021-05-20 16:02:58 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:02:58 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:02:58 INFO  CommandFactory:41 - Command get
+2021-05-20 16:02:58 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-20 16:02:58 INFO  TestResultServiceImpl:56 - return list result
+2021-05-20 16:02:58 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-20 16:03:08 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:03:08 INFO  CommandFactory:41 - Command get
+2021-05-20 16:03:14 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:03:14 INFO  CommandFactory:41 - Command get
+2021-05-20 16:03:14 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:03:14 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 16:03:14 INFO  LoginCommand:34 - User login
+2021-05-20 16:03:14 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:03:14 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:03:14 INFO  CommandFactory:41 - Command get
+2021-05-20 16:03:14 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 16:03:17 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:03:17 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:03:17 INFO  CommandFactory:41 - Command get
+2021-05-20 16:03:17 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 16:10:33 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:10:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:10:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:10:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:10:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:10:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:10:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:10:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:10:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:10:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:10:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:10:33 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 16:10:34 INFO  CommandFactory:41 - Command get
+2021-05-20 16:10:34 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:10:34 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 16:10:36 INFO  LoginCommand:34 - User login
+2021-05-20 16:10:36 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:10:36 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:10:36 INFO  CommandFactory:41 - Command get
+2021-05-20 16:10:36 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 16:10:38 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:10:38 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:10:38 INFO  CommandFactory:41 - Command get
+2021-05-20 16:10:38 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 16:13:58 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:13:58 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:13:58 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:13:58 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:13:58 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:13:58 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:13:58 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:13:58 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:13:58 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:13:58 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:13:58 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:13:59 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 16:14:00 INFO  CommandFactory:41 - Command get
+2021-05-20 16:14:00 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:14:00 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 16:14:02 INFO  LoginCommand:34 - User login
+2021-05-20 16:14:02 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:14:02 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:14:02 INFO  CommandFactory:41 - Command get
+2021-05-20 16:14:02 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 16:14:04 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:14:04 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:14:04 INFO  CommandFactory:41 - Command get
+2021-05-20 16:14:04 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 16:16:39 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:16:39 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:16:39 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:16:39 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:16:39 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:16:39 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:16:39 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:16:39 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:16:39 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:16:39 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:16:39 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:16:39 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 16:16:41 INFO  CommandFactory:41 - Command get
+2021-05-20 16:16:41 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:16:41 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 16:16:42 INFO  LoginCommand:34 - User login
+2021-05-20 16:16:42 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:16:42 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:16:42 INFO  CommandFactory:41 - Command get
+2021-05-20 16:16:42 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 16:16:45 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:16:45 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:16:45 INFO  CommandFactory:41 - Command get
+2021-05-20 16:16:45 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 16:18:15 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:18:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:18:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:18:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:18:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:18:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:18:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:18:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:18:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:18:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:18:16 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:18:16 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 16:18:17 INFO  CommandFactory:41 - Command get
+2021-05-20 16:18:17 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:18:17 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 16:18:19 INFO  LoginCommand:34 - User login
+2021-05-20 16:18:19 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:18:19 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:18:19 INFO  CommandFactory:41 - Command get
+2021-05-20 16:18:19 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 16:18:21 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:18:21 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:18:21 INFO  CommandFactory:41 - Command get
+2021-05-20 16:18:21 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 16:20:27 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:20:28 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:28 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:28 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:28 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:28 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:28 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:28 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:28 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:28 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:28 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:28 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 16:20:29 INFO  CommandFactory:41 - Command get
+2021-05-20 16:20:29 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:29 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 16:20:31 INFO  LoginCommand:34 - User login
+2021-05-20 16:20:31 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:20:31 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:20:31 INFO  CommandFactory:41 - Command get
+2021-05-20 16:20:31 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-20 16:20:31 INFO  TestResultServiceImpl:56 - return list result
+2021-05-20 16:20:31 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-20 16:20:37 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:20:37 INFO  CommandFactory:41 - Command get
+2021-05-20 16:20:37 INFO  LogoutCommand:16 - Command Log out
+2021-05-20 16:20:37 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:20:37 INFO  CommandFactory:41 - Command get
+2021-05-20 16:20:43 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:20:43 INFO  CommandFactory:41 - Command get
+2021-05-20 16:20:43 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:20:43 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 16:20:43 INFO  LoginCommand:34 - User login
+2021-05-20 16:20:43 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:20:43 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:20:43 INFO  CommandFactory:41 - Command get
+2021-05-20 16:20:43 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 16:20:46 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:20:46 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:20:46 INFO  CommandFactory:41 - Command get
+2021-05-20 16:20:46 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 16:23:29 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:23:30 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:23:30 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:23:30 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:23:30 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:23:30 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:23:30 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:23:30 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:23:30 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:23:30 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:23:30 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:23:30 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 16:23:31 INFO  CommandFactory:41 - Command get
+2021-05-20 16:23:31 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:23:31 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 16:23:32 INFO  LoginCommand:34 - User login
+2021-05-20 16:23:32 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:23:32 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:23:32 INFO  CommandFactory:41 - Command get
+2021-05-20 16:23:32 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 16:23:34 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:23:34 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:23:34 INFO  CommandFactory:41 - Command get
+2021-05-20 16:23:34 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 16:23:51 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:23:51 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:23:51 INFO  CommandFactory:41 - Command get
+2021-05-20 16:23:51 INFO  AdminUpdateUserCommand:31 - Execute update user
+2021-05-20 16:37:11 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:37:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:37:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:37:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:37:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:37:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:37:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:37:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:37:12 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:37:13 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:37:13 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:37:13 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 16:37:14 INFO  CommandFactory:41 - Command get
+2021-05-20 16:37:14 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:37:14 INFO  UserServiceImpl:57 - The service searches for a user by login and password
+2021-05-20 16:37:17 INFO  LoginCommand:34 - User login
+2021-05-20 16:37:17 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:37:17 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:37:17 INFO  CommandFactory:41 - Command get
+2021-05-20 16:37:17 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 16:37:20 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:37:20 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:37:20 INFO  CommandFactory:41 - Command get
+2021-05-20 16:37:20 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 16:38:07 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:38:07 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:38:07 INFO  CommandFactory:41 - Command get
+2021-05-20 16:38:07 INFO  AdminUpdateUserCommand:31 - Execute update user
+2021-05-20 16:50:22 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:50:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:50:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:50:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:50:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:50:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:50:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:50:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:50:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:50:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:50:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:50:24 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 16:50:27 INFO  CommandFactory:41 - Command get
+2021-05-20 16:50:27 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:50:27 INFO  UserServiceImpl:58 - The service searches for a user by login and password
+2021-05-20 16:50:29 INFO  LoginCommand:34 - User login
+2021-05-20 16:50:29 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:50:29 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:50:29 INFO  CommandFactory:41 - Command get
+2021-05-20 16:50:29 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 16:50:39 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:50:39 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:50:39 INFO  CommandFactory:41 - Command get
+2021-05-20 16:50:39 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 16:51:34 INFO  RoleFilter:25 - Do Filter
+2021-05-20 16:51:34 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 16:51:34 INFO  CommandFactory:41 - Command get
+2021-05-20 16:51:34 INFO  AdminUpdateUserCommand:32 - Execute update user
+2021-05-20 16:52:11 INFO  UserServiceImpl:34 - The service searches for a user by id
+2021-05-20 16:52:46 INFO  DaoFactory:25 - dao factory
+2021-05-20 16:52:46 INFO  UserServiceImpl:64 - The service searches for a user by email
+2021-05-20 16:53:18 INFO  UserServiceImpl:70 - The  service checks and set new parameter
+2021-05-20 16:59:17 ERROR AdminUpdateUserCommand:62 - com.testing.model.exception.WrongDataException: Incorrect user data
+2021-05-20 16:59:17 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 17:01:33 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:01:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:01:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:01:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:01:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:01:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:01:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:01:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:01:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:01:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:01:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:01:34 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-20 17:01:35 INFO  CommandFactory:41 - Command get
+2021-05-20 17:01:35 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:01:35 INFO  UserServiceImpl:58 - The service searches for a user by login and password
+2021-05-20 17:01:36 INFO  LoginCommand:34 - User login
+2021-05-20 17:01:36 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:01:36 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:01:36 INFO  CommandFactory:41 - Command get
+2021-05-20 17:01:36 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 17:01:38 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:01:38 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:01:38 INFO  CommandFactory:41 - Command get
+2021-05-20 17:01:38 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 17:01:45 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:01:45 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:01:45 INFO  CommandFactory:41 - Command get
+2021-05-20 17:01:45 INFO  AdminUpdateUserCommand:32 - Execute update user
+2021-05-20 17:01:59 INFO  UserServiceImpl:34 - The service searches for a user by id
+2021-05-20 17:02:09 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:02:09 INFO  UserServiceImpl:64 - The service searches for a user by email
+2021-05-20 17:02:21 INFO  UserServiceImpl:70 - The  service checks and set new parameter
+2021-05-20 17:02:52 INFO  UserServiceImpl:46 - The service updates a user
+2021-05-20 17:05:05 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:05:05 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:05:05 INFO  CommandFactory:41 - Command get
+2021-05-20 17:05:05 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 17:05:13 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:05:13 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:05:13 INFO  CommandFactory:41 - Command get
+2021-05-20 17:05:13 INFO  AdminUpdateUserCommand:32 - Execute update user
+2021-05-20 17:05:30 INFO  UserServiceImpl:34 - The service searches for a user by id
+2021-05-20 17:05:33 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:05:33 INFO  UserServiceImpl:64 - The service searches for a user by email
+2021-05-20 17:05:34 INFO  UserServiceImpl:70 - The  service checks and set new parameter
+2021-05-20 17:06:07 INFO  UserServiceImpl:46 - The service updates a user
+2021-05-20 17:06:27 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:06:27 INFO  CommandFactory:41 - Command get
+2021-05-20 17:06:27 INFO  LogoutCommand:16 - Command Log out
+2021-05-20 17:06:27 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:06:27 INFO  CommandFactory:41 - Command get
+2021-05-20 17:06:31 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:06:31 INFO  CommandFactory:41 - Command get
+2021-05-20 17:06:31 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:06:31 INFO  UserServiceImpl:58 - The service searches for a user by login and password
+2021-05-20 17:06:31 INFO  LoginCommand:34 - User login
+2021-05-20 17:06:47 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:06:47 INFO  CommandFactory:41 - Command get
+2021-05-20 17:06:47 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:06:47 INFO  UserServiceImpl:58 - The service searches for a user by login and password
+2021-05-20 17:06:47 INFO  LoginCommand:34 - User login
+2021-05-20 17:06:59 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:06:59 INFO  CommandFactory:41 - Command get
+2021-05-20 17:06:59 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:06:59 INFO  UserServiceImpl:58 - The service searches for a user by login and password
+2021-05-20 17:06:59 INFO  LoginCommand:34 - User login
+2021-05-20 17:06:59 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:06:59 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:06:59 INFO  CommandFactory:41 - Command get
+2021-05-20 17:06:59 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 17:07:01 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:07:01 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:07:01 INFO  CommandFactory:41 - Command get
+2021-05-20 17:07:01 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 17:07:12 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:07:12 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:07:12 INFO  CommandFactory:41 - Command get
+2021-05-20 17:07:12 INFO  AdminUpdateUserCommand:32 - Execute update user
+2021-05-20 17:07:19 INFO  UserServiceImpl:34 - The service searches for a user by id
+2021-05-20 17:07:24 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:07:24 INFO  UserServiceImpl:64 - The service searches for a user by email
+2021-05-20 17:07:25 INFO  UserServiceImpl:70 - The  service checks and set new parameter
+2021-05-20 17:07:37 INFO  UserServiceImpl:46 - The service updates a user
+2021-05-20 17:08:04 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:08:04 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:08:04 INFO  CommandFactory:41 - Command get
+2021-05-20 17:08:04 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 17:08:14 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:08:14 INFO  CommandFactory:41 - Command get
+2021-05-20 17:08:14 INFO  LogoutCommand:16 - Command Log out
+2021-05-20 17:08:14 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:08:14 INFO  CommandFactory:41 - Command get
+2021-05-20 17:08:21 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:08:21 INFO  CommandFactory:41 - Command get
+2021-05-20 17:08:21 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:08:21 INFO  UserServiceImpl:58 - The service searches for a user by login and password
+2021-05-20 17:08:21 INFO  LoginCommand:34 - User login
+2021-05-20 17:08:21 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:08:21 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:08:21 INFO  CommandFactory:41 - Command get
+2021-05-20 17:08:21 INFO  StudentCommandPage:30 - Student command page execute
+2021-05-20 17:08:21 INFO  TestResultServiceImpl:56 - return list result
+2021-05-20 17:08:21 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-20 17:51:28 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:51:28 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:51:28 INFO  CommandFactory:41 - Command get
+2021-05-20 17:51:34 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:51:34 INFO  CommandFactory:41 - Command get
+2021-05-20 17:51:34 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:51:34 INFO  UserServiceImpl:58 - The service searches for a user by login and password
+2021-05-20 17:51:34 INFO  LoginCommand:34 - User login
+2021-05-20 17:51:34 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:51:34 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:51:34 INFO  CommandFactory:41 - Command get
+2021-05-20 17:51:34 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-20 17:51:36 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:51:36 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:51:36 INFO  CommandFactory:41 - Command get
+2021-05-20 17:51:36 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-20 17:52:14 INFO  RoleFilter:25 - Do Filter
+2021-05-20 17:52:14 INFO  AuthenticationFilter:21 - doFilter
+2021-05-20 17:52:14 INFO  CommandFactory:41 - Command get
+2021-05-20 17:52:14 INFO  AdminUpdateUserCommand:32 - Execute update user
+2021-05-20 17:52:43 INFO  UserServiceImpl:34 - The service searches for a user by id
+2021-05-20 17:52:58 INFO  DaoFactory:25 - dao factory
+2021-05-20 17:52:58 INFO  UserServiceImpl:64 - The service searches for a user by email
+2021-05-20 17:53:08 INFO  UserServiceImpl:70 - The  service checks and set new parameter
+2021-05-20 17:53:59 INFO  UserServiceImpl:46 - The service updates a user

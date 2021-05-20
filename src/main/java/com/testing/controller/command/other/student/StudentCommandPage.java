@@ -33,7 +33,7 @@ public class StudentCommandPage implements Command {
         List<Test> allTest = testService.findAll();
         Map<String,Integer> test = new HashMap<>();
         for (TestResult testResult : allUserResult){
-            String testName = allTest.stream().filter(a -> a.getId().equals(testResult.getTest_id())).map(Test::getTestName).findAny().orElseThrow(RuntimeException::new);
+            String testName = allTest.stream().filter( testId -> testId.getId().equals(testResult.getTest_id())).map(Test::getTestName).findAny().orElseThrow(RuntimeException::new);
             test.put(testName,testResult.getResult());
         }
         request.setAttribute(AttributesResourceManager.getProperty("parameter.map"),test);

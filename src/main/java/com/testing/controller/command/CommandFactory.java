@@ -1,5 +1,9 @@
 package com.testing.controller.command;
 
+import com.testing.controller.command.other.admin.AdminCommandPage;
+import com.testing.controller.command.other.admin.AdminSubjectCommand;
+import com.testing.controller.command.other.admin.AdminUpdateCommandPage;
+import com.testing.controller.command.other.admin.AdminUpdateUserCommand;
 import com.testing.controller.command.other.login.LoginCommand;
 import com.testing.controller.command.other.login.LogoutCommand;
 import com.testing.controller.command.other.MainCommand;
@@ -27,6 +31,10 @@ public class CommandFactory {
         commandMap.put("student/subject/test", new TestCommandPage());
         commandMap.put("student/subject/test/pass", new PassCommandPage());
         commandMap.put("student/subject/test/pass/result", new ResultCommand());
+        commandMap.put("admin", new AdminCommandPage());
+        commandMap.put("admin/subject", new AdminSubjectCommand());
+        commandMap.put("admin/user", new AdminUpdateCommandPage());
+        commandMap.put("admin/user/update", new AdminUpdateUserCommand());
     }
 
     public static Command getCommand(String url) {

@@ -43,4 +43,9 @@ public class SubjectServiceImpl implements SubjectService {
         subjectDao.delete(id);
     }
 
+    @Override
+    public List<Subject> findAllByLocale(String locale) {
+        LOGGER.info("Service looks for all subjects");
+        return subjectDao.findAllByLocale(locale);
+    }
 }

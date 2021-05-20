@@ -1,12 +1,22 @@
 package com.testing.model.service.impl;
 
+import com.testing.controller.util.ValidationUserExist;
 import com.testing.dao.UserDao;
 import com.testing.dao.impl.DaoFactory;
 import com.testing.model.entity.User;
+import com.testing.model.entity.type.Status;
+import com.testing.model.exception.WrongDataException;
 import com.testing.model.service.UserService;
 import org.apache.log4j.Logger;
 
+import javax.validation.ConstraintViolation;
+import javax.validation.Validation;
+import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
 import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
+import java.util.Set;
 
 public class UserServiceImpl implements UserService {
     DaoFactory daoFactory = DaoFactory.getInstance();
@@ -53,5 +63,26 @@ public class UserServiceImpl implements UserService {
     public User findByEmail(String email) {
         LOGGER.info("The service searches for a user by email");
         return userDao.findByEmail(email);
+    }
+
+    @Override
+    public void setNewParameterUser(User user, String userName, String userSurname, String userEmail,String password, String userStatus) {
+        LOGGER.info("The  service checks and set new parameter");
+        if(!userEmail.isEmpty()){
+            user.setEmail(userEmail);
+        }
+        if(!userName.isEmpty()){
+            user.setName(userName);
+        }
+        if(!userSurname.isEmpty()){
+            user.setSurname(userSurname);
+        }
+        if(!password.isEmpty()){
+            user.setPassword(password);
+        }
+        if(!userStatus.isEmpty() && userStatus.equals("BLOCKED") || userStatus.equals("UNBLOCKED")){
+            Status newUserStatus = Enum.valueOf(Status.class, userStatus);
+            user.setStatus(newUserStatus);
+        }
     }
 }
