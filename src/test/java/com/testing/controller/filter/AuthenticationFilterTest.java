@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)

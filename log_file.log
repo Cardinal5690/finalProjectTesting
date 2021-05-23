@@ -10550,3 +10550,4 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" в таблице "test_resu
 2021-05-23 21:19:09 INFO  StudentCommandPage:28 - Student command page execute
 2021-05-23 21:19:09 INFO  TestResultServiceImpl:56 - return list result
 2021-05-23 21:19:09 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-23 21:33:17 INFO  AuthenticationFilter:22 - doFilter
