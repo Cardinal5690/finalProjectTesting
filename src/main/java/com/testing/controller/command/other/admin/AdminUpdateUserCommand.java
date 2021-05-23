@@ -2,6 +2,7 @@ package com.testing.controller.command.other.admin;
 
 import com.testing.controller.command.Command;
 import com.testing.controller.util.AttributesResourceManager;
+import com.testing.controller.util.PageResourceManager;
 import com.testing.controller.util.ValidationUserExist;
 import com.testing.model.entity.User;
 import com.testing.model.exception.UserExistException;
@@ -55,6 +56,7 @@ public class AdminUpdateUserCommand implements Command {
                 throw new WrongDataException("Incorrect user data");
             }
             userService.update(userFromDB);
+            return PageResourceManager.getProperty("redirect.admin");
         } catch (WrongDataException e) {
             LOGGER.error(e);
             request.setAttribute(AttributesResourceManager.getProperty("parameter.error.update"), true);

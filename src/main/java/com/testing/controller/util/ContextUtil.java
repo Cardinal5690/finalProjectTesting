@@ -12,6 +12,7 @@ public class ContextUtil {
     private static Map<User, HttpSession> loggedUsers;
 
     public static boolean isUserInContext(HttpSession session, User user) {
+        LOGGER.info("Check user in Context");
         getLoggedUsers(session);
         return loggedUsers.containsKey(user);
     }

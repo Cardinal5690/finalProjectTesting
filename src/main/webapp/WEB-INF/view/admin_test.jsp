@@ -18,9 +18,10 @@
     <jsp:include page="/WEB-INF/parts/head.jsp"/>
 </head>
 <body>
-
 <div class="container">
-    <form method="post" action="${pageContext.request.contextPath}/testing/student/subject/test/pass">
+    <form method="post" action="${pageContext.request.contextPath}/testing/admin/subject/test/question">
+        <input type="hidden" name="title" value="${title}"/>
+        <input type="hidden" name="subjectId" value="${subjectId}"/>
         <table>
             <thead>
             <tr>
@@ -41,7 +42,7 @@
                     <td>
                         <p>
                             <label>
-                                <input type="radio" required="required" name="question" value="${test.getTestName()}"/><span> </span>
+                                <input type="radio" required="required" name="testId" value="${test.getId()}"/><span> </span>
                             </label>
                         </p>
                     </td>
@@ -50,7 +51,13 @@
 
             </tbody>
         </table>
-        <input class="btn" type="submit" value="<fmt:message key="text.choose"/>">
+        <input class="btn" type="submit" value="<fmt:message key="text.create.question"/>">
+        <button class="btn" name="testId" formaction="${pageContext.request.contextPath}/testing/admin/subject/test/delete" value="${test.getId()}" type="submit"><fmt:message key="text.admin.test.delete"/> </button>
+    </form>
+    <form method="post"
+          action="${pageContext.request.contextPath}/testing/admin/subject/test/create">
+        <input type="hidden" name="title" value="${title}"/>
+        <button class="btn" name="subjectId" value="${subjectId}" type="submit"><fmt:message key="text.subjects.create"/> </button>
     </form>
 </div>
 </body>

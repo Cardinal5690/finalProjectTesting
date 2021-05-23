@@ -14,11 +14,9 @@ import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class StudentCommandPage implements Command {
     private static final Logger LOGGER = Logger.getLogger(StudentCommandPage.class);
@@ -33,7 +31,7 @@ public class StudentCommandPage implements Command {
         List<Test> allTest = testService.findAll();
         Map<String,Integer> test = new HashMap<>();
         for (TestResult testResult : allUserResult){
-            String testName = allTest.stream().filter( testId -> testId.getId().equals(testResult.getTest_id())).map(Test::getTestName).findAny().orElseThrow(RuntimeException::new);
+            String testName = allTest.stream().filter( testId -> testId.getId().equals(testResult.getTestId())).map(Test::getTestName).findAny().orElseThrow(RuntimeException::new);
             test.put(testName,testResult.getResult());
         }
         request.setAttribute(AttributesResourceManager.getProperty("parameter.map"),test);

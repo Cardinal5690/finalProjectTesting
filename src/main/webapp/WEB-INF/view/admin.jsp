@@ -45,6 +45,11 @@
                 <h1 class="flow-text mb15"><fmt:message key="text.user.update"/> </h1>
                 <button class="btn" type="submit"><fmt:message key="text.update"/> </button>
             </form>
+            <form method="post"
+                  action="${pageContext.request.contextPath}/testing/admin/history">
+                <h1 class="flow-text mb15"><fmt:message key="text.history.of.results"/> </h1>
+                <button class="btn" type="submit"><fmt:message key="text.submit"/> </button>
+            </form>
         </div>
         <div class="col s12 m6">
             <h1 class="flow-text"><fmt:message key="text.admin"/></h1>

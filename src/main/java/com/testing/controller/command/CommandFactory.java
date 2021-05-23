@@ -1,9 +1,6 @@
 package com.testing.controller.command;
 
-import com.testing.controller.command.other.admin.AdminCommandPage;
-import com.testing.controller.command.other.admin.AdminSubjectCommand;
-import com.testing.controller.command.other.admin.AdminUpdateCommandPage;
-import com.testing.controller.command.other.admin.AdminUpdateUserCommand;
+import com.testing.controller.command.other.admin.*;
 import com.testing.controller.command.other.login.LoginCommand;
 import com.testing.controller.command.other.login.LogoutCommand;
 import com.testing.controller.command.other.MainCommand;
@@ -35,6 +32,13 @@ public class CommandFactory {
         commandMap.put("admin/subject", new AdminSubjectCommand());
         commandMap.put("admin/user", new AdminUpdateCommandPage());
         commandMap.put("admin/user/update", new AdminUpdateUserCommand());
+        commandMap.put("admin/history", new AdminHistoryOfResultsCommand());
+        commandMap.put("admin/subject/test", new AdminTestCommand());
+        commandMap.put("admin/subject/test/create/action", new AdminTestCreateCommand());
+        commandMap.put("admin/subject/test/create", new AdminTestCreateCommandPage());
+        commandMap.put("admin/subject/test/question", new AdminQuestionCreateCommandPage());
+        commandMap.put("admin/subject/test/question/create", new AdminQuestionCreateCommand());
+        commandMap.put("admin/subject/test/delete", new AdminTestDeleteCommand());
     }
 
     public static Command getCommand(String url) {

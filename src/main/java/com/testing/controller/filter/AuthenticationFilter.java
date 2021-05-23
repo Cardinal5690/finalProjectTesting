@@ -12,6 +12,7 @@ import java.io.IOException;
 
 public class AuthenticationFilter implements Filter {
     private static final Logger LOGGER = Logger.getLogger(AuthenticationFilter.class);
+
     @Override
     public void init(FilterConfig filterConfig) {
     }
@@ -28,17 +29,17 @@ public class AuthenticationFilter implements Filter {
         boolean loggedIn = session != null && session.getAttribute(AttributesResourceManager.getProperty("parameter.user")) != null;
         boolean loginRequest = request.getRequestURI().equals(loginURI);
         boolean signUpRequest = request.getRequestURI().equals(registrationURI);
-        if (loggedIn || loginRequest || signUpRequest) {
+        if (loggedIn && (loginRequest || signUpRequest)) {
+            request.getRequestDispatcher("/testing/main").forward(request, response);
+        } else if (loggedIn || loginRequest || signUpRequest) {
             filterChain.doFilter(request, response);
-        } else if (request.getRequestURI().equals( PageResourceManager.getProperty("key.registration"))) {
+        } else if (request.getRequestURI().equals(PageResourceManager.getProperty("key.registration"))) {
             LOGGER.info("Registration Forward");
-            request.getRequestDispatcher(PageResourceManager.getProperty("page.registration")).forward(request,response);
-        }
-        else if (request.getRequestURI().equals(PageResourceManager.getProperty("key.login")) ){
+            request.getRequestDispatcher(PageResourceManager.getProperty("page.registration")).forward(request, response);
+        } else if (request.getRequestURI().equals(PageResourceManager.getProperty("key.login"))) {
             LOGGER.info("Login Forward");
             request.getRequestDispatcher(PageResourceManager.getProperty("page.login")).forward(request, response);
-        }
-        else {
+        } else {
             response.sendRedirect(PageResourceManager.getProperty("key.login"));
         }
     }
