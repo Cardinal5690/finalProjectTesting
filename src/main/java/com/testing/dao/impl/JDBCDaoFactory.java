@@ -38,11 +38,6 @@ public class JDBCDaoFactory extends DaoFactory {
         return new QuestionDaoImpl();
     }
 
-    @Override
-    public AnswerDao createAnswerDao() {
-        return new AnswerDaoImpl();
-    }
-
     public Connection getConnection() {
         try {
             return dataSource.getConnection();

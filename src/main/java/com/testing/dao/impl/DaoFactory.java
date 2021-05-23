@@ -12,7 +12,6 @@ public abstract class DaoFactory {
     public abstract SubjectDao createSubjectDao();
     public abstract TestResultDao createTestResultDao();
     public abstract QuestionDao createQuestionDao();
-    public abstract AnswerDao createAnswerDao();
 
     public static DaoFactory getInstance (){
         if(daoFactory == null){

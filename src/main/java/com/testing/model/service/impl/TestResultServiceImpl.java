@@ -39,8 +39,8 @@ public class TestResultServiceImpl implements TestResultService {
                 }
             }
             count = (count * 100) / correctResult.size();
-            testResult.setUser_id(userId);
-            testResult.setTest_id(test.getId());
+            testResult.setUserId(userId);
+            testResult.setTestId(test.getId());
             testResult.setResult(count);
             testResultDao.create(testResult);
             LOGGER.info("CalculateResult");
@@ -55,6 +55,19 @@ public class TestResultServiceImpl implements TestResultService {
     public List<TestResult> allTestResultByUserId(int userId) {
         LOGGER.info("return list result");
         return testResultDao.findAllByUserId(userId);
+    }
+
+    @Override
+    public int getNumberOfRows() {
+        LOGGER.info("get number of page");
+        return testResultDao.getNumberOfRows();
+    }
+
+    @Override
+    public List<TestResult> findTestResultPagination(int currentPage, int recordsPerPage) {
+        int start = currentPage * recordsPerPage - recordsPerPage;
+        LOGGER.info("find pages");
+        return testResultDao.findTestResultPagination(start, recordsPerPage);
     }
 }
 

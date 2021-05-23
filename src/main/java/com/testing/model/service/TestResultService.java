@@ -11,4 +11,6 @@ public interface TestResultService {
     TestResult getTestResultByUserIdAndTestName (int userId, String testName);
     int calculateResult(int userId, Test test, Map<String, String> testAnswer, List<Question> allQuestionListByTest);
     List<TestResult> allTestResultByUserId (int userId);
+    int getNumberOfRows();
+    List<TestResult> findTestResultPagination(int currentPage, int recordsPerPage);
 }

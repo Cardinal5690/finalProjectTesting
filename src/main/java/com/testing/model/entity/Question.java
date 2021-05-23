@@ -17,6 +17,12 @@ public class Question {
     public Question() {
     }
 
+    public Question(String questionText, String correctAnswer, Integer testId) {
+        this.questionText = questionText;
+        this.correctAnswer = correctAnswer;
+        this.testId = testId;
+    }
+
     public Integer getId() {
         return id;
     }

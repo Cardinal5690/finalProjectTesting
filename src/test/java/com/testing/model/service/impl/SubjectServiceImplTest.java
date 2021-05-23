@@ -34,6 +34,7 @@ public class SubjectServiceImplTest {
         when(daoFactory.createSubjectDao()).thenReturn(subjectDao);
         when(subjectDao.findById(1)).thenReturn(subject);
         when(subjectDao.findAll()).thenReturn(Collections.singletonList(subject));
+        when(subjectDao.findAllByLocale("EN")).thenReturn(Collections.singletonList(subject));
     }
 
     @Test
@@ -71,4 +72,9 @@ public class SubjectServiceImplTest {
         verify(subjectDao,times(1)).delete(2);
     }
 
+    @Test
+    public void testFindAllSubjectsByLocale(){
+        List<Subject> actualList= service.findAllByLocale("EN");
+        assertEquals(subject,actualList.get(0));
+    }
 }

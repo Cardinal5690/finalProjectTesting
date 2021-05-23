@@ -23,18 +23,21 @@ public class TestServiceImplTest {
     @Mock
     TestDao testDao;
 
-     com.testing.model.entity.Test expected;
+    com.testing.model.entity.Test expected;
 
     @Before
-    public void setUp(){
+    public void setUp() {
         MockitoAnnotations.initMocks(this);
         expected = new com.testing.model.entity.Test();
+        expected.setTestName("History of Java");
         expected.setTime(30);
         expected.setId(1);
         expected.setComplexity(Complexity.MIDDLE);
         when(daoFactory.createTestDao()).thenReturn(testDao);
         when(testDao.findById(1)).thenReturn(expected);
         when(testDao.findAll()).thenReturn(Collections.singletonList(expected));
+        when(testDao.getBySubjectTitle("History")).thenReturn(Collections.singletonList(expected));
+        when(testDao.getByName("History of Java")).thenReturn(expected);
     }
 
     @Test
@@ -42,19 +45,19 @@ public class TestServiceImplTest {
         com.testing.model.entity.Test test = new com.testing.model.entity.Test();
         test.setId(2);
         testService.create(test);
-        verify(testDao,times(1)).create(test);
+        verify(testDao, times(1)).create(test);
     }
 
     @Test
     public void findById() {
         com.testing.model.entity.Test actual = testService.findById(1);
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
     }
 
     @Test
     public void findAll() {
         List<com.testing.model.entity.Test> actual = testService.findAll();
-        assertEquals(expected,actual.get(0));
+        assertEquals(expected, actual.get(0));
     }
 
     @Test
@@ -63,12 +66,24 @@ public class TestServiceImplTest {
         actual.setId(1);
         actual.setComplexity(Complexity.EASY);
         testService.update(actual);
-        verify(testDao,times(1)).update(actual);
+        verify(testDao, times(1)).update(actual);
     }
 
     @Test
     public void delete() {
         testService.delete(2);
-        verify(testDao,times(1)).delete(2);
+        verify(testDao, times(1)).delete(2);
+    }
+
+    @Test
+    public void testFindAllTestBySubjectTitle() {
+        List<com.testing.model.entity.Test> actual = testService.getBySubjectTitle("History");
+        assertEquals(expected, actual.get(0));
+    }
+
+    @Test
+    public void testFindByTestName() {
+        com.testing.model.entity.Test actual = testService.getByName("History of Java");
+        assertEquals(expected,actual);
     }
 }

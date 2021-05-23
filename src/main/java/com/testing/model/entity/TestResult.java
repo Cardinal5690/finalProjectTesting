@@ -3,7 +3,6 @@ package com.testing.model.entity;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
-import java.util.List;
 import java.util.Objects;
 
 public class TestResult {
@@ -13,10 +12,18 @@ public class TestResult {
     @Max(100)
     private Integer result;
     @NotNull
-    private Integer user_id;
+    private Integer userId;
     @NotNull
-    private Integer test_id;
+    private Integer testId;
 
+    public TestResult() {
+    }
+
+    public TestResult(Integer result, Integer userId, Integer testId) {
+        this.result = result;
+        this.userId = userId;
+        this.testId = testId;
+    }
 
     public Integer getId() {
         return id;
@@ -34,20 +41,20 @@ public class TestResult {
         this.result = result;
     }
 
-    public Integer getUser_id() {
-        return user_id;
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setUser_id(Integer user_id) {
-        this.user_id = user_id;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
-    public Integer getTest_id() {
-        return test_id;
+    public Integer getTestId() {
+        return testId;
     }
 
-    public void setTest_id(Integer test_id) {
-        this.test_id = test_id;
+    public void setTestId(Integer testId) {
+        this.testId = testId;
     }
 
     @Override
@@ -55,11 +62,11 @@ public class TestResult {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         TestResult that = (TestResult) o;
-        return Objects.equals(id, that.id) && Objects.equals(result, that.result) && Objects.equals(user_id, that.user_id) && Objects.equals(test_id, that.test_id);
+        return Objects.equals(id, that.id) && Objects.equals(result, that.result) && Objects.equals(userId, that.userId) && Objects.equals(testId, that.testId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, result, user_id, test_id);
+        return Objects.hash(id, result, userId, testId);
     }
 }

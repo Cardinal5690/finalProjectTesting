@@ -11,8 +11,8 @@ public class TestResultMapper implements ObjectMapper<TestResult>{
         TestResult testResult = new TestResult();
         testResult.setId(rs.getInt("id"));
         testResult.setResult(rs.getInt("result"));
-        testResult.setUser_id(rs.getInt("user_id"));
-        testResult.setTest_id(rs.getInt("test_id"));
+        testResult.setUserId(rs.getInt("user_id"));
+        testResult.setTestId(rs.getInt("test_id"));
         return testResult;
     }
 }

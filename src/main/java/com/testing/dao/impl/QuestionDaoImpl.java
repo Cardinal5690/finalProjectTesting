@@ -93,23 +93,6 @@ public class QuestionDaoImpl implements QuestionDao {
     }
 
     @Override
-    public List<Question> getAllQuestionsByTestId(int testId) {
-        List<Question> questionList = new ArrayList<>();
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
-            PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("question.find.all.by.test.id"));
-            preparedStatement.setInt(1, testId);
-            ResultSet resultSet = preparedStatement.executeQuery();
-            while (resultSet.next()) {
-                questionList.add(new QuestionMapper().extractFromResultSet(resultSet));
-            }
-        } catch (SQLException e) {
-            LOGGER.info("Didn't find any question", e);
-        }
-        return questionList;
-    }
-
-    @Override
     public List<Question> getAllQuestionsByTestName(String testName) {
         List<Question> questionList = new ArrayList<>();
         try (Connection connection = ConnectionPool.getDataSource().getConnection()) {

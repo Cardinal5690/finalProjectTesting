@@ -1,22 +1,13 @@
 package com.testing.model.service.impl;
 
-import com.testing.controller.util.ValidationUserExist;
 import com.testing.dao.UserDao;
 import com.testing.dao.impl.DaoFactory;
 import com.testing.model.entity.User;
 import com.testing.model.entity.type.Status;
-import com.testing.model.exception.WrongDataException;
 import com.testing.model.service.UserService;
 import org.apache.log4j.Logger;
 
-import javax.validation.ConstraintViolation;
-import javax.validation.Validation;
-import javax.validation.Validator;
-import javax.validation.ValidatorFactory;
 import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
 
 public class UserServiceImpl implements UserService {
     DaoFactory daoFactory = DaoFactory.getInstance();

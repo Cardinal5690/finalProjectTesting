@@ -3,7 +3,6 @@ package com.testing.model.service.impl;
 import com.testing.dao.QuestionDao;
 import com.testing.dao.impl.DaoFactory;
 import com.testing.model.entity.Question;
-import com.testing.model.entity.Test;
 import com.testing.model.service.QuestionService;
 import org.apache.log4j.Logger;
 
@@ -45,20 +44,8 @@ public class QuestionServiceImpl implements QuestionService {
     }
 
     @Override
-    public void setQuestion(Test test) {
-       LOGGER.info("The service sets all the questions for the test");
-    }
-
-    @Override
-    public List<Question> getQuestionByTestId(int testId) {
-        LOGGER.info("The service looks for all questions");
-        return questionDao.getAllQuestionsByTestId(testId);
-    }
-
-    @Override
     public List<Question> getAllQuestionsByTestName(String testName) {
         LOGGER.info("The service looks for all questions");
         return questionDao.getAllQuestionsByTestName(testName);
     }
-
 }

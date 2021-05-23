@@ -35,6 +35,7 @@ public class UserServiceImplTest {
         when(userDao.findById(1)).thenReturn(user);
         when(userDao.findAll()).thenReturn(Collections.singletonList(user));
         when(userDao.findUserByLoginAndPassword("wilson@gmail.com","123456")).thenReturn(user);
+        when(userDao.findByEmail("wilson@gmail.com")).thenReturn(user);
     }
 
     @Test
@@ -74,6 +75,27 @@ public class UserServiceImplTest {
     @Test
     public void findUserByLoginAndPassword() {
         User actual = userService.findUserByLoginAndPassword("wilson@gmail.com","123456");
+        assertEquals(user,actual);
+    }
+
+    @Test
+    public void testNewParameterForUser (){
+        User actualUser = new User();
+        String testName = "john";
+        String testSurname = "galt";
+        String testEmail = "new";
+        String testPassword="newPassword";
+
+        userService.setNewParameterUser(actualUser,testName,testSurname,testEmail,testPassword,"BLOCKED");
+
+        User expectedUser = new User(testName,testSurname,testEmail,testPassword,null,Status.BLOCKED);
+
+        assertEquals(expectedUser,actualUser);
+    }
+
+    @Test
+    public void testFindByEmail(){
+        User actual = userService.findByEmail("wilson@gmail.com");
         assertEquals(user,actual);
     }
 }

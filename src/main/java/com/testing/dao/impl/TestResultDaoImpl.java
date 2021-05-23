@@ -37,8 +37,8 @@ public class TestResultDaoImpl implements TestResultDao {
             PreparedStatement preparedStatement =
                     connection.prepareStatement(QueriesResourceManager.getProperty("test.result.create"), Statement.RETURN_GENERATED_KEYS);
             preparedStatement.setInt(1, testResult.getResult());
-            preparedStatement.setInt(2, testResult.getUser_id());
-            preparedStatement.setInt(3, testResult.getTest_id());
+            preparedStatement.setInt(2, testResult.getUserId());
+            preparedStatement.setInt(3, testResult.getTestId());
             preparedStatement.execute();
             ResultSet resultSet = preparedStatement.getGeneratedKeys();
             if (resultSet.next()) {
@@ -65,6 +65,41 @@ public class TestResultDaoImpl implements TestResultDao {
             LOGGER.info("Didn't find any tests", e);
         }
         return testResults;
+    }
+
+    @Override
+    public int getNumberOfRows() {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection()){
+             PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("test.result.get.number"));
+            int numOfRows = 0;
+            ResultSet resultSet = statement.executeQuery();
+            if (resultSet.next()) {
+                numOfRows = resultSet.getInt(1);
+            }
+            return numOfRows;
+        } catch (SQLException e) {
+            LOGGER.info("Cannot find number of rows", e);
+        }
+        return 0;
+    }
+
+    @Override
+    public List<TestResult> findTestResultPagination(int start, int recordsPerPage) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection()){
+             PreparedStatement statement =
+                     connection.prepareStatement(QueriesResourceManager.getProperty("test.result.find.pagination"));
+            statement.setInt(1, recordsPerPage);
+            statement.setInt(2, start);
+            ResultSet resultSet = statement.executeQuery();
+            List<TestResult> results = new ArrayList<>();
+            while (resultSet.next()) {
+                results.add(new TestResultMapper().extractFromResultSet(resultSet));
+            }
+            return results;
+        } catch (SQLException e) {
+            LOGGER.info("Cannot find results on page", e);
+            return null;
+        }
     }
 }
 
