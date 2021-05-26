@@ -6529,7 +6529,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:34)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:34)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -6607,7 +6607,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:34)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:34)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -6664,7 +6664,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:34)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:34)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -6721,7 +6721,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:34)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:34)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -6799,7 +6799,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:34)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:34)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -6862,7 +6862,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:34)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:34)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8201,7 +8201,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8267,7 +8267,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец question.testid не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8325,7 +8325,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8383,7 +8383,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8449,7 +8449,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец question.testid не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8506,7 +8506,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец question.testid не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8561,7 +8561,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец question.testid не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8617,7 +8617,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец question.testid не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8695,7 +8695,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8767,7 +8767,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец test_result.testid не существ
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8817,7 +8817,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" в таблице "test_resu
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8875,7 +8875,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -8932,7 +8932,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" не существует
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -9030,7 +9030,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" в таблице "test_resu
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -9119,7 +9119,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" в таблице "test_resu
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -9197,7 +9197,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" в таблице "test_resu
 	at com.testing.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:32)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.testing.controller.filter.RoleFilter.doFilter(RoleFilter.java:40)
+	at com.testing.controller.filter.AuthorizationFilter.doFilter(RoleFilter.java:40)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
 	at com.testing.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
@@ -10551,3 +10551,809 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец "userid" в таблице "test_resu
 2021-05-23 21:19:09 INFO  TestResultServiceImpl:56 - return list result
 2021-05-23 21:19:09 INFO  TestServiceImpl:30 - The service looks for all tests
 2021-05-23 21:33:17 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:07:12 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:07:19 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:07:20 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:07:21 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:07:21 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:07:21 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:07:21 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:07:22 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:22 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:22 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:22 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:22 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:22 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:22 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:22 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:22 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:22 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:23 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-26 23:07:30 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:30 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:30 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:31 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:31 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:07:31 INFO  CommandFactory:45 - Command get
+2021-05-26 23:07:31 INFO  CommandFactory:45 - Command get
+2021-05-26 23:07:31 INFO  CommandFactory:45 - Command get
+2021-05-26 23:07:37 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:07:37 INFO  CommandFactory:45 - Command get
+2021-05-26 23:07:37 INFO  RegistrationCommandPage:16 - execute
+2021-05-26 23:08:06 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:08:06 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:08:06 INFO  CommandFactory:45 - Command get
+2021-05-26 23:08:24 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:08:24 INFO  CommandFactory:45 - Command get
+2021-05-26 23:08:24 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:08:24 INFO  UserServiceImpl:49 - The service searches for a user by login and password
+2021-05-26 23:08:37 INFO  ContextUtil:15 - Check user in Context
+2021-05-26 23:08:37 INFO  LoginCommand:34 - User login
+2021-05-26 23:08:54 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:08:54 INFO  CommandFactory:45 - Command get
+2021-05-26 23:08:54 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:08:54 INFO  UserServiceImpl:49 - The service searches for a user by login and password
+2021-05-26 23:08:54 INFO  ContextUtil:15 - Check user in Context
+2021-05-26 23:08:54 INFO  LoginCommand:34 - User login
+2021-05-26 23:11:18 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:11:18 INFO  CommandFactory:45 - Command get
+2021-05-26 23:11:18 INFO  RegistrationCommandPage:16 - execute
+2021-05-26 23:11:50 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:11:50 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:11:50 INFO  CommandFactory:45 - Command get
+2021-05-26 23:11:59 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:11:59 INFO  CommandFactory:45 - Command get
+2021-05-26 23:11:59 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:11:59 INFO  UserServiceImpl:49 - The service searches for a user by login and password
+2021-05-26 23:11:59 INFO  ContextUtil:15 - Check user in Context
+2021-05-26 23:11:59 INFO  LoginCommand:34 - User login
+2021-05-26 23:12:13 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:13 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:13 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:12:13 INFO  UserServiceImpl:49 - The service searches for a user by login and password
+2021-05-26 23:12:14 INFO  ContextUtil:15 - Check user in Context
+2021-05-26 23:12:14 INFO  LoginCommand:34 - User login
+2021-05-26 23:12:14 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:12:14 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:14 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:14 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-26 23:12:17 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:12:17 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:17 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:17 INFO  AdminHistoryOfResultsCommand:24 - Execute admin history
+2021-05-26 23:12:17 INFO  TestResultServiceImpl:69 - find pages
+2021-05-26 23:12:17 INFO  TestResultServiceImpl:62 - get number of page
+2021-05-26 23:12:20 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:12:20 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:20 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:20 INFO  AdminHistoryOfResultsCommand:24 - Execute admin history
+2021-05-26 23:12:20 INFO  TestResultServiceImpl:69 - find pages
+2021-05-26 23:12:20 INFO  TestResultServiceImpl:62 - get number of page
+2021-05-26 23:12:22 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:12:22 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:22 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:22 INFO  AdminHistoryOfResultsCommand:24 - Execute admin history
+2021-05-26 23:12:22 INFO  TestResultServiceImpl:69 - find pages
+2021-05-26 23:12:22 INFO  TestResultServiceImpl:62 - get number of page
+2021-05-26 23:12:24 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:24 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:24 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:12:24 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:24 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:24 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-26 23:12:26 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:12:26 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:26 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:26 INFO  AdminUpdateCommandPage:14 - Execute update page
+2021-05-26 23:12:33 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:12:33 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:33 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:33 INFO  AdminUpdateUserCommand:31 - Execute update user
+2021-05-26 23:12:33 INFO  UserServiceImpl:25 - The service searches for a user by id
+2021-05-26 23:12:33 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:12:33 INFO  UserServiceImpl:55 - The service searches for a user by email
+2021-05-26 23:12:33 INFO  UserServiceImpl:61 - The  service checks and set new parameter
+2021-05-26 23:12:34 INFO  UserServiceImpl:37 - The service updates a user
+2021-05-26 23:12:34 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:12:34 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:34 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:34 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-26 23:12:43 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:12:43 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:43 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:43 INFO  AdminSubjectCommand:19 - Admin get subject page command
+2021-05-26 23:12:43 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-26 23:12:46 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:12:46 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:46 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:46 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:12:46 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:12:51 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:12:51 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:12:51 INFO  CommandFactory:45 - Command get
+2021-05-26 23:12:51 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:13:05 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:13:05 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:13:05 INFO  CommandFactory:45 - Command get
+2021-05-26 23:13:05 INFO  AdminTestCreateCommand:29 - Admin creates test command
+2021-05-26 23:13:06 INFO  TestServiceImpl:18 - The service creates a test
+2021-05-26 23:13:06 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:13:18 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:13:18 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:13:18 INFO  CommandFactory:45 - Command get
+2021-05-26 23:13:18 INFO  AdminTestCreateCommand:29 - Admin creates test command
+2021-05-26 23:13:18 INFO  TestServiceImpl:18 - The service creates a test
+2021-05-26 23:13:18 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:13:20 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:13:20 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:13:20 INFO  CommandFactory:45 - Command get
+2021-05-26 23:13:20 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:13:20 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:13:38 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:13:38 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:13:38 INFO  CommandFactory:45 - Command get
+2021-05-26 23:13:38 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-26 23:13:38 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-26 23:13:39 INFO  TestDaoImpl:93 - Test didn't delete
+2021-05-26 23:13:39 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:13:39 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:13:39 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:15:01 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:15:02 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:02 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:02 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:02 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:02 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:02 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:02 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:02 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:02 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:02 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:02 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-26 23:15:02 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:15:03 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:03 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:03 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:03 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:04 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:15:04 INFO  CommandFactory:45 - Command get
+2021-05-26 23:15:04 INFO  CommandFactory:45 - Command get
+2021-05-26 23:15:04 INFO  RegistrationCommandPage:16 - execute
+2021-05-26 23:15:04 INFO  RegistrationCommandPage:16 - execute
+2021-05-26 23:15:29 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:15:29 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:15:29 INFO  CommandFactory:45 - Command get
+2021-05-26 23:16:01 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:16:01 INFO  CommandFactory:45 - Command get
+2021-05-26 23:16:01 INFO  RegistrationCommandPage:16 - execute
+2021-05-26 23:16:33 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:16:33 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:16:33 INFO  CommandFactory:45 - Command get
+2021-05-26 23:18:12 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:18:29 INFO  CommandFactory:45 - Command get
+2021-05-26 23:18:29 INFO  RegistrationCommandPage:16 - execute
+2021-05-26 23:18:57 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:19:47 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:19:47 INFO  CommandFactory:45 - Command get
+2021-05-26 23:20:38 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:20:42 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:42 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:42 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:42 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:42 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:42 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:42 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:42 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:42 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:42 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:42 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-26 23:20:43 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:43 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:43 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:43 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:43 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:20:43 INFO  CommandFactory:45 - Command get
+2021-05-26 23:20:43 INFO  RegistrationCommandPage:16 - execute
+2021-05-26 23:20:57 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:21:10 INFO  CommandFactory:45 - Command get
+2021-05-26 23:21:12 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:21:31 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:21:31 INFO  UserServiceImpl:55 - The service searches for a user by email
+2021-05-26 23:21:58 INFO  UserServiceImpl:19 - The service creates a user
+2021-05-26 23:22:47 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:23:02 INFO  CommandFactory:45 - Command get
+2021-05-26 23:23:02 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:23:02 INFO  UserServiceImpl:49 - The service searches for a user by login and password
+2021-05-26 23:23:02 INFO  ContextUtil:15 - Check user in Context
+2021-05-26 23:23:02 INFO  LoginCommand:34 - User login
+2021-05-26 23:23:06 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:23:14 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:23:26 INFO  CommandFactory:45 - Command get
+2021-05-26 23:23:26 INFO  StudentCommandPage:28 - Student command page execute
+2021-05-26 23:23:26 INFO  TestResultServiceImpl:56 - return list result
+2021-05-26 23:23:26 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-26 23:23:37 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:23:57 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:24:00 INFO  CommandFactory:45 - Command get
+2021-05-26 23:24:00 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-26 23:24:00 INFO  SubjectPage:24 - Execute
+2021-05-26 23:24:10 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:24:15 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:24:17 INFO  CommandFactory:45 - Command get
+2021-05-26 23:24:17 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:24:17 INFO  TestCommandPage:28 - Execute
+2021-05-26 23:25:07 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:25:14 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:25:14 INFO  CommandFactory:45 - Command get
+2021-05-26 23:25:18 INFO  QuestionServiceImpl:48 - The service looks for all questions
+2021-05-26 23:25:20 INFO  PassCommandPage:27 - Pass command execute
+2021-05-26 23:25:35 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:25:42 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:25:42 INFO  CommandFactory:45 - Command get
+2021-05-26 23:25:52 INFO  TestServiceImpl:54 - The service searches for a test by name
+2021-05-26 23:25:54 INFO  QuestionServiceImpl:48 - The service looks for all questions
+2021-05-26 23:26:34 INFO  TestResultServiceImpl:46 - CalculateResult
+2021-05-26 23:26:40 INFO  ResultCommand:45 - Calculate result execute
+2021-05-26 23:26:42 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:26:45 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:26:45 INFO  CommandFactory:45 - Command get
+2021-05-26 23:26:45 INFO  StudentCommandPage:28 - Student command page execute
+2021-05-26 23:26:45 INFO  TestResultServiceImpl:56 - return list result
+2021-05-26 23:26:45 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-26 23:26:51 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:26:51 INFO  CommandFactory:45 - Command get
+2021-05-26 23:26:51 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:26:59 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:26:59 INFO  CommandFactory:45 - Command get
+2021-05-26 23:26:59 INFO  StudentCommandPage:28 - Student command page execute
+2021-05-26 23:26:59 INFO  TestResultServiceImpl:56 - return list result
+2021-05-26 23:26:59 INFO  TestServiceImpl:30 - The service looks for all tests
+2021-05-26 23:26:59 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:26:59 INFO  CommandFactory:45 - Command get
+2021-05-26 23:26:59 INFO  LogoutCommand:16 - Command Log out
+2021-05-26 23:26:59 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:26:59 INFO  CommandFactory:45 - Command get
+2021-05-26 23:27:05 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:27:05 INFO  CommandFactory:45 - Command get
+2021-05-26 23:27:05 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:27:05 INFO  UserServiceImpl:49 - The service searches for a user by login and password
+2021-05-26 23:27:05 INFO  ContextUtil:15 - Check user in Context
+2021-05-26 23:27:05 INFO  LoginCommand:34 - User login
+2021-05-26 23:27:05 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:27:15 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:27:15 INFO  CommandFactory:45 - Command get
+2021-05-26 23:27:15 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-26 23:27:19 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:27:22 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:27:22 INFO  CommandFactory:45 - Command get
+2021-05-26 23:27:22 INFO  AdminSubjectCommand:19 - Admin get subject page command
+2021-05-26 23:27:22 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-26 23:27:30 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:27:33 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:27:33 INFO  CommandFactory:45 - Command get
+2021-05-26 23:27:33 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:27:33 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:28:05 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:28:11 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:28:11 INFO  CommandFactory:45 - Command get
+2021-05-26 23:28:11 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:28:36 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:28:42 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:28:42 INFO  CommandFactory:45 - Command get
+2021-05-26 23:28:43 INFO  AdminTestCreateCommand:29 - Admin creates test command
+2021-05-26 23:29:15 INFO  TestServiceImpl:18 - The service creates a test
+2021-05-26 23:29:31 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:29:49 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:29:56 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:29:56 INFO  CommandFactory:45 - Command get
+2021-05-26 23:29:58 INFO  AdminTestCreateCommand:29 - Admin creates test command
+2021-05-26 23:30:18 INFO  TestServiceImpl:18 - The service creates a test
+2021-05-26 23:30:21 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:30:35 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:30:42 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:30:42 INFO  CommandFactory:45 - Command get
+2021-05-26 23:30:43 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:30:49 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:31:25 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:31:31 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:31:31 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:31:31 INFO  CommandFactory:45 - Command get
+2021-05-26 23:31:31 INFO  CommandFactory:45 - Command get
+2021-05-26 23:31:34 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:31:34 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:31:34 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:31:34 INFO  CommandFactory:45 - Command get
+2021-05-26 23:31:34 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-26 23:31:43 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:31:49 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:31:57 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:31:57 INFO  CommandFactory:45 - Command get
+2021-05-26 23:31:57 INFO  AdminSubjectCommand:19 - Admin get subject page command
+2021-05-26 23:31:57 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-26 23:32:02 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:32:02 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:32:02 INFO  CommandFactory:45 - Command get
+2021-05-26 23:32:05 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:32:07 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:32:53 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:32:53 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:32:53 INFO  CommandFactory:45 - Command get
+2021-05-26 23:32:58 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:32:59 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:33:05 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:33:05 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:33:05 INFO  CommandFactory:45 - Command get
+2021-05-26 23:33:05 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:33:15 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:33:15 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:33:15 INFO  CommandFactory:45 - Command get
+2021-05-26 23:33:20 INFO  AdminTestCreateCommand:29 - Admin creates test command
+2021-05-26 23:35:57 INFO  TestServiceImpl:18 - The service creates a test
+2021-05-26 23:36:01 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:36:17 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:36:17 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:36:17 INFO  CommandFactory:45 - Command get
+2021-05-26 23:36:17 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:36:17 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:36:29 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:36:29 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:36:29 INFO  CommandFactory:45 - Command get
+2021-05-26 23:36:29 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:36:29 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:36:37 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:36:37 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:36:37 INFO  CommandFactory:45 - Command get
+2021-05-26 23:36:37 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:36:37 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:36:42 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:36:42 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:36:42 INFO  CommandFactory:45 - Command get
+2021-05-26 23:36:42 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:36:55 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:36:55 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:36:55 INFO  CommandFactory:45 - Command get
+2021-05-26 23:36:55 INFO  AdminTestCreateCommand:29 - Admin creates test command
+2021-05-26 23:36:55 INFO  TestServiceImpl:18 - The service creates a test
+2021-05-26 23:36:55 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:37:26 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:37:26 INFO  CommandFactory:45 - Command get
+2021-05-26 23:37:26 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:37:26 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:37:26 INFO  CommandFactory:45 - Command get
+2021-05-26 23:37:26 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-26 23:37:28 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:37:28 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:37:28 INFO  CommandFactory:45 - Command get
+2021-05-26 23:37:28 INFO  AdminSubjectCommand:19 - Admin get subject page command
+2021-05-26 23:37:28 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-26 23:37:31 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:37:31 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:37:31 INFO  CommandFactory:45 - Command get
+2021-05-26 23:37:31 INFO  AdminTestCommand:19 - Execute admin test command
+2021-05-26 23:37:31 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:39:58 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:39:59 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:39:59 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:39:59 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:39:59 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:39:59 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:39:59 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:39:59 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:39:59 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:39:59 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:39:59 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:39:59 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-26 23:40:00 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:40:00 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:40:00 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:40:00 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:40:00 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:40:00 INFO  CommandFactory:45 - Command get
+2021-05-26 23:40:00 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:40:00 INFO  UserServiceImpl:49 - The service searches for a user by login and password
+2021-05-26 23:40:01 INFO  ContextUtil:15 - Check user in Context
+2021-05-26 23:40:01 INFO  LoginCommand:34 - User login
+2021-05-26 23:40:01 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:40:01 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:40:01 INFO  CommandFactory:45 - Command get
+2021-05-26 23:40:01 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-26 23:40:03 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:40:03 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:40:03 INFO  CommandFactory:45 - Command get
+2021-05-26 23:40:07 INFO  AdminSubjectCommand:19 - Admin get subject page command
+2021-05-26 23:40:54 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-26 23:41:04 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:41:04 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:41:04 INFO  CommandFactory:45 - Command get
+2021-05-26 23:41:07 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-26 23:41:19 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:41:56 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:41:56 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:41:56 INFO  CommandFactory:45 - Command get
+2021-05-26 23:41:56 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:42:15 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:42:15 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:42:15 INFO  CommandFactory:45 - Command get
+2021-05-26 23:42:15 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-26 23:43:58 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:43:58 INFO  CommandFactory:45 - Command get
+2021-05-26 23:43:58 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:43:58 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:43:58 INFO  CommandFactory:45 - Command get
+2021-05-26 23:43:58 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-26 23:44:00 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:44:00 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:44:00 INFO  CommandFactory:45 - Command get
+2021-05-26 23:44:00 INFO  AdminSubjectCommand:19 - Admin get subject page command
+2021-05-26 23:44:06 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-26 23:44:13 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:44:13 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:44:13 INFO  CommandFactory:45 - Command get
+2021-05-26 23:44:17 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-26 23:45:20 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:45:22 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:45:22 INFO  CommandFactory:45 - Command get
+2021-05-26 23:45:22 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:45:22 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:45:22 INFO  CommandFactory:45 - Command get
+2021-05-26 23:45:22 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-26 23:45:23 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:45:23 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:45:23 INFO  CommandFactory:45 - Command get
+2021-05-26 23:45:23 INFO  AdminSubjectCommand:19 - Admin get subject page command
+2021-05-26 23:45:29 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-26 23:45:37 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:45:37 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:45:37 INFO  CommandFactory:45 - Command get
+2021-05-26 23:45:40 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-26 23:45:59 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-26 23:49:03 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:49:04 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:04 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:04 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:04 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:04 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:04 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:04 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:04 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:04 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:04 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:04 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-26 23:49:05 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:05 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:05 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:05 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:05 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:05 INFO  CommandFactory:45 - Command get
+2021-05-26 23:49:05 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:49:05 INFO  UserServiceImpl:49 - The service searches for a user by login and password
+2021-05-26 23:49:06 INFO  ContextUtil:15 - Check user in Context
+2021-05-26 23:49:06 INFO  LoginCommand:34 - User login
+2021-05-26 23:49:06 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:49:06 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:49:06 INFO  CommandFactory:45 - Command get
+2021-05-26 23:49:06 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-26 23:49:11 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:49:11 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:49:11 INFO  CommandFactory:45 - Command get
+2021-05-26 23:49:14 INFO  AdminSubjectCommand:21 - Admin get subject page command
+2021-05-26 23:49:18 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-26 23:51:10 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:51:11 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:11 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:11 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:11 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:11 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:11 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:11 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:11 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:11 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:11 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:11 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-26 23:51:14 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:14 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:14 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:14 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:14 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:14 INFO  CommandFactory:45 - Command get
+2021-05-26 23:51:14 INFO  DaoFactory:24 - dao factory
+2021-05-26 23:51:14 INFO  UserServiceImpl:49 - The service searches for a user by login and password
+2021-05-26 23:51:16 INFO  ContextUtil:15 - Check user in Context
+2021-05-26 23:51:16 INFO  LoginCommand:34 - User login
+2021-05-26 23:51:16 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:51:16 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:51:16 INFO  CommandFactory:45 - Command get
+2021-05-26 23:51:16 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-26 23:51:18 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-26 23:51:18 INFO  AuthenticationFilter:22 - doFilter
+2021-05-26 23:51:18 INFO  CommandFactory:45 - Command get
+2021-05-26 23:51:23 INFO  AdminSubjectCommand:21 - Admin get subject page command
+2021-05-26 23:51:25 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-27 00:04:50 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:04:57 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:04:57 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:04:58 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:04:58 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:04:59 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:04:59 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:04:59 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:04:59 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:05:00 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:05:00 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:05:01 INFO  Version:21 - HV000001: Hibernate Validator 6.0.13.Final
+2021-05-27 00:05:17 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:05:17 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:05:17 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:05:17 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:05:18 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:05:18 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:05:18 INFO  CommandFactory:45 - Command get
+2021-05-27 00:05:18 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:05:18 INFO  UserServiceImpl:49 - The service searches for a user by login and password
+2021-05-27 00:05:36 INFO  ContextUtil:15 - Check user in Context
+2021-05-27 00:05:36 INFO  LoginCommand:34 - User login
+2021-05-27 00:05:36 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:05:36 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:05:36 INFO  CommandFactory:45 - Command get
+2021-05-27 00:05:36 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-27 00:05:42 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:05:42 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:05:42 INFO  CommandFactory:45 - Command get
+2021-05-27 00:06:20 INFO  AdminSubjectCommand:21 - Admin get subject page command
+2021-05-27 00:06:20 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-27 00:06:26 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:06:26 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:06:26 INFO  CommandFactory:45 - Command get
+2021-05-27 00:06:32 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:06:43 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:06:51 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:06:51 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:06:51 INFO  CommandFactory:45 - Command get
+2021-05-27 00:06:51 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-27 00:07:18 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:07:18 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:07:18 INFO  CommandFactory:45 - Command get
+2021-05-27 00:07:21 INFO  AdminTestCreateCommand:33 - Admin creates test command
+2021-05-27 00:07:33 INFO  SubjectServiceImpl:54 - The service searches for a subject by title
+2021-05-27 00:08:13 INFO  TestServiceImpl:18 - The service creates a test
+2021-05-27 00:08:18 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-27 00:08:46 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:08:46 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:08:46 INFO  CommandFactory:45 - Command get
+2021-05-27 00:08:49 INFO  AdminTestCreateCommand:33 - Admin creates test command
+2021-05-27 00:08:53 INFO  SubjectServiceImpl:54 - The service searches for a subject by title
+2021-05-27 00:08:57 INFO  TestServiceImpl:18 - The service creates a test
+2021-05-27 00:08:58 INFO  AdminTestCreateCommandPage:16 - Execute create test page
+2021-05-27 00:09:06 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:09:06 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:09:06 INFO  CommandFactory:45 - Command get
+2021-05-27 00:09:09 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:09:12 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:09:19 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:09:19 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:09:19 INFO  CommandFactory:45 - Command get
+2021-05-27 00:09:19 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:09:19 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:09:19 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:09:23 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:09:38 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:10:13 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:10:13 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:10:13 INFO  CommandFactory:45 - Command get
+2021-05-27 00:10:13 INFO  AdminQuestionCreateCommandPage:18 - Execute question create command
+2021-05-27 00:10:39 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:10:39 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:10:39 INFO  CommandFactory:45 - Command get
+2021-05-27 00:10:39 INFO  AdminQuestionCreateCommand:28 - Execute question create command (action)
+2021-05-27 00:10:47 INFO  QuestionServiceImpl:18 - The service creates a question
+2021-05-27 00:10:48 INFO  AdminQuestionCreateCommandPage:18 - Execute question create command
+2021-05-27 00:11:33 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:11:33 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:11:33 INFO  CommandFactory:45 - Command get
+2021-05-27 00:11:36 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:11:38 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:11:49 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:11:49 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:11:49 INFO  CommandFactory:45 - Command get
+2021-05-27 00:11:49 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:11:49 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:11:49 INFO  TestDaoImpl:93 - Test didn't delete
+2021-05-27 00:11:49 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:11:58 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:12:00 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:12:13 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:12:13 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:12:13 INFO  CommandFactory:45 - Command get
+2021-05-27 00:12:13 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:12:13 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:12:13 INFO  TestDaoImpl:93 - Test didn't delete
+2021-05-27 00:12:13 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:12:29 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:12:29 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:12:39 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:12:39 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:12:39 INFO  CommandFactory:45 - Command get
+2021-05-27 00:12:39 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:13:04 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:13:05 INFO  TestDaoImpl:93 - Test didn't delete
+2021-05-27 00:13:09 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:13:10 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:13:11 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:13:18 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:13:18 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:13:18 INFO  CommandFactory:45 - Command get
+2021-05-27 00:13:18 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:13:25 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:32:58 INFO  TestDaoImpl:93 - Test didn't delete
+2021-05-27 00:33:02 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:33:07 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:33:11 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:33:11 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:33:11 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:33:11 INFO  CommandFactory:45 - Command get
+2021-05-27 00:33:11 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:33:11 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:33:18 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:33:25 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:33:27 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:33:40 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:33:40 INFO  CommandFactory:45 - Command get
+2021-05-27 00:33:40 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:33:40 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:33:40 INFO  CommandFactory:45 - Command get
+2021-05-27 00:33:40 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-27 00:33:45 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:33:45 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:33:45 INFO  CommandFactory:45 - Command get
+2021-05-27 00:33:45 INFO  AdminSubjectCommand:21 - Admin get subject page command
+2021-05-27 00:33:45 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-27 00:33:50 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:33:50 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:33:50 INFO  CommandFactory:45 - Command get
+2021-05-27 00:33:52 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:33:55 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:34:02 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:34:02 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:34:02 INFO  CommandFactory:45 - Command get
+2021-05-27 00:34:02 INFO  AdminQuestionCreateCommandPage:18 - Execute question create command
+2021-05-27 00:34:13 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:34:13 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:34:13 INFO  CommandFactory:45 - Command get
+2021-05-27 00:34:13 INFO  AdminQuestionCreateCommand:28 - Execute question create command (action)
+2021-05-27 00:34:18 INFO  QuestionServiceImpl:18 - The service creates a question
+2021-05-27 00:34:18 INFO  AdminQuestionCreateCommandPage:18 - Execute question create command
+2021-05-27 00:34:25 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:34:25 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:34:25 INFO  CommandFactory:45 - Command get
+2021-05-27 00:34:25 INFO  AdminQuestionCreateCommand:28 - Execute question create command (action)
+2021-05-27 00:34:27 INFO  QuestionServiceImpl:18 - The service creates a question
+2021-05-27 00:34:27 INFO  AdminQuestionCreateCommandPage:18 - Execute question create command
+2021-05-27 00:34:34 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:34:34 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:34:34 INFO  CommandFactory:45 - Command get
+2021-05-27 00:34:37 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:34:37 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:34:42 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:34:42 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:34:42 INFO  CommandFactory:45 - Command get
+2021-05-27 00:34:42 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:34:50 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:34:59 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:35:00 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:35:01 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:35:13 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:13 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:13 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:13 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:35:22 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:35:22 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:35:22 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:35:22 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:35:29 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:29 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:29 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:29 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:35:29 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:35:29 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:35:29 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:35:29 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:35:33 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:33 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:33 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:33 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:35:33 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:35:33 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:35:33 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:35:33 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:35:37 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:37 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:37 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:37 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:35:37 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:35:38 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:35:38 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:35:38 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:35:40 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:40 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:40 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:40 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:40 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:40 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-27 00:35:42 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:42 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:42 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:42 INFO  AdminSubjectCommand:21 - Admin get subject page command
+2021-05-27 00:35:42 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-27 00:35:44 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:44 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:44 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:44 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:35:44 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:35:45 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:45 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:45 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:45 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:45 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:45 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-27 00:35:47 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:47 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:47 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:47 INFO  AdminSubjectCommand:21 - Admin get subject page command
+2021-05-27 00:35:47 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-27 00:35:49 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:49 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:49 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:49 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:35:49 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:35:51 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:51 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:51 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:51 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:51 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:51 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-27 00:35:52 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:52 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:52 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:52 INFO  AdminSubjectCommand:21 - Admin get subject page command
+2021-05-27 00:35:52 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-27 00:35:55 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:55 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:55 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:55 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:35:55 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:35:56 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:56 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:56 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:56 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:56 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:56 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-27 00:35:58 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:35:58 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:35:58 INFO  CommandFactory:45 - Command get
+2021-05-27 00:35:58 INFO  AdminSubjectCommand:21 - Admin get subject page command
+2021-05-27 00:35:58 INFO  SubjectServiceImpl:48 - Service looks for all subjects
+2021-05-27 00:36:00 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:36:00 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:36:00 INFO  CommandFactory:45 - Command get
+2021-05-27 00:36:00 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:36:00 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:36:03 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:36:03 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:36:03 INFO  CommandFactory:45 - Command get
+2021-05-27 00:36:03 INFO  AdminTestDeleteCommand:20 - Test delete command execute
+2021-05-27 00:36:03 INFO  TestServiceImpl:42 - The service deletes a test
+2021-05-27 00:36:03 INFO  DaoFactory:24 - dao factory
+2021-05-27 00:36:03 INFO  AdminTestCommand:21 - Execute admin test command
+2021-05-27 00:36:03 INFO  TestServiceImpl:48 - The service sets all the tests for the subject
+2021-05-27 00:36:05 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:36:05 INFO  CommandFactory:45 - Command get
+2021-05-27 00:36:05 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:36:05 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:36:05 INFO  CommandFactory:45 - Command get
+2021-05-27 00:36:05 INFO  AdminCommandPage:21 - Admin command execute
+2021-05-27 00:36:07 INFO  AuthorizationFilter:25 - Do authorization role filter
+2021-05-27 00:36:07 INFO  AuthenticationFilter:22 - doFilter
+2021-05-27 00:36:07 INFO  CommandFactory:45 - Command get
+2021-05-27 00:36:07 INFO  AdminHistoryOfResultsCommand:24 - Execute admin history
+2021-05-27 00:36:07 INFO  TestResultServiceImpl:69 - find pages
+2021-05-27 00:36:07 INFO  TestResultServiceImpl:62 - get number of page

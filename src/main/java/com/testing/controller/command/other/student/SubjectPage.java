@@ -17,6 +17,9 @@ public class SubjectPage implements Command {
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
         String locale = request.getParameter(AttributesResourceManager.getProperty("parameter.locale"));
+        if (locale == null || locale.isEmpty()) {
+            return PageResourceManager.getProperty("redirect.student");
+        }
         request.setAttribute(AttributesResourceManager.getProperty("parameter.list"), subjectService.findAllByLocale(locale));
         LOGGER.info("Execute");
         return PageResourceManager.getProperty("page.subject");

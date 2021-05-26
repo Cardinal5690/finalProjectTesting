@@ -13,10 +13,14 @@ public class AdminTestCreateCommandPage implements Command {
 
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
-        int subjectId = Integer.parseInt(request.getParameter(AttributesResourceManager.getProperty("parameter.subject.id")));
-        request.setAttribute(AttributesResourceManager.getProperty("parameter.title"), request.getParameter(AttributesResourceManager.getProperty("parameter.title")));
-        request.setAttribute(AttributesResourceManager.getProperty("parameter.subject.id"),subjectId);
-        LOGGER.info("Execute");
+        LOGGER.info("Execute create test page");
+        String subjectId = request.getParameter(AttributesResourceManager.getProperty("parameter.subject.id"));
+        if (subjectId == null || subjectId.isEmpty()) {
+            return PageResourceManager.getProperty("redirect.admin");
+        }
+        String title = request.getParameter(AttributesResourceManager.getProperty("parameter.title"));
+        request.setAttribute(AttributesResourceManager.getProperty("parameter.title"), title);
+        request.setAttribute(AttributesResourceManager.getProperty("parameter.subject.id"), subjectId);
         return PageResourceManager.getProperty("page.admin.test.create");
     }
 }

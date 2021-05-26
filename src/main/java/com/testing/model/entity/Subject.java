@@ -11,9 +11,6 @@ public class Subject {
     @Size(max = 50)
     private String title;
 
-    public Subject() {
-    }
-
     public Integer getId() {
         return id;
     }

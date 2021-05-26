@@ -1,6 +1,7 @@
 package com.testing.controller.filter;
 
 import com.testing.controller.util.AttributesResourceManager;
+import com.testing.controller.util.CommandUtil;
 import com.testing.controller.util.PageResourceManager;
 import com.testing.model.entity.User;
 import com.testing.model.entity.type.Role;
@@ -11,10 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.util.Objects;
 
-public class RoleFilter implements Filter {
-    private static final Logger LOGGER = Logger.getLogger(RoleFilter.class);
+public class AuthorizationFilter implements Filter {
+    private static final Logger LOGGER = Logger.getLogger(AuthorizationFilter.class);
     @Override
     public void init(FilterConfig filterConfig) {
 
@@ -22,7 +22,7 @@ public class RoleFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        LOGGER.info("Do Filter");
+        LOGGER.info("Do authorization role filter");
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         HttpServletResponse httpResponse = (HttpServletResponse) servletResponse;
 
@@ -33,13 +33,13 @@ public class RoleFilter implements Filter {
             if (user.getRole().equals(Role.ADMIN)) {
                 filterChain.doFilter(servletRequest, servletResponse);
             } else {
-                httpResponse.sendRedirect(PageResourceManager.getProperty("page.not.permissions"));
+                httpResponse.sendRedirect(PageResourceManager.getProperty(CommandUtil.getUserPageByRole(user.getRole().getROLE())));
             }
         } else if (path.contains("student")) {
             if (user.getEmail()!=null && user.getRole().equals(Role.STUDENT)) {
                 filterChain.doFilter(servletRequest, servletResponse);
             } else {
-                httpResponse.sendRedirect(PageResourceManager.getProperty("page.not.permissions"));
+                httpResponse.sendRedirect(PageResourceManager.getProperty(CommandUtil.getUserPageByRole(user.getRole().getROLE())));
             }
         } else {
             filterChain.doFilter(servletRequest, servletResponse);

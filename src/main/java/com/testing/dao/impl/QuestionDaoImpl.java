@@ -39,9 +39,9 @@ public class QuestionDaoImpl implements QuestionDao {
 
     @Override
     public Question findById(int id) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
-            PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("question.find.by.id"));
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
+             PreparedStatement preparedStatement =
+                     connection.prepareStatement(QueriesResourceManager.getProperty("question.find.by.id"))) {
             preparedStatement.setInt(1, id);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {
@@ -56,8 +56,8 @@ public class QuestionDaoImpl implements QuestionDao {
     @Override
     public List<Question> findAll() {
         List<Question> allQuestions = new ArrayList<>();
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
-            Statement statement = connection.createStatement();
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
+            Statement statement = connection.createStatement()) {
             ResultSet resultSet = statement.executeQuery(QueriesResourceManager.getProperty("question.find.all"));
             while (resultSet.next()) {
                 allQuestions.add(new QuestionMapper().extractFromResultSet(resultSet));
@@ -82,9 +82,9 @@ public class QuestionDaoImpl implements QuestionDao {
 
     @Override
     public void delete(int id) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
-            PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("question.delete"));
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
+             PreparedStatement preparedStatement =
+                     connection.prepareStatement(QueriesResourceManager.getProperty("question.delete"))) {
             preparedStatement.setInt(1, id);
             preparedStatement.execute();
         } catch (SQLException e) {
@@ -95,9 +95,9 @@ public class QuestionDaoImpl implements QuestionDao {
     @Override
     public List<Question> getAllQuestionsByTestName(String testName) {
         List<Question> questionList = new ArrayList<>();
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
             PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("question.find.all.by.test.name"));
+                    connection.prepareStatement(QueriesResourceManager.getProperty("question.find.all.by.test.name"))) {
             preparedStatement.setString(1, testName);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {

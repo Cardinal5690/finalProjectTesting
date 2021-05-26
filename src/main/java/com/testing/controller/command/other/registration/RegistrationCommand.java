@@ -41,7 +41,7 @@ public class RegistrationCommand implements Command {
 
             User user = new User(name, surname, email, password, Role.STUDENT, Status.UNBLOCKED);
             Set<ConstraintViolation<User>> constraintViolationSet = validator.validate(user);
-            if (constraintViolationSet.size() > 0) {
+            if (!constraintViolationSet.isEmpty()) {
                 throw new WrongDataException();
             }
             if (!validationUserExist.userExist(email)) {

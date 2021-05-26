@@ -2,7 +2,6 @@ package com.testing.controller.command.other.admin;
 
 import com.testing.controller.command.Command;
 import com.testing.controller.util.AttributesResourceManager;
-import com.testing.controller.util.PageResourceManager;
 import com.testing.model.entity.Question;
 import com.testing.model.exception.WrongDataException;
 import com.testing.model.service.QuestionService;
@@ -21,9 +20,9 @@ import java.util.Set;
 
 public class AdminQuestionCreateCommand implements Command {
     private static final Logger LOGGER = Logger.getLogger(AdminQuestionCreateCommand.class);
-    private QuestionService questionService = new QuestionServiceImpl();
-    private ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
-    private Validator validator = factory.getValidator();
+    private final QuestionService questionService = new QuestionServiceImpl();
+    private final ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+    private final Validator validator = factory.getValidator();
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
        LOGGER.info("Execute question create command (action)");
@@ -38,7 +37,7 @@ public class AdminQuestionCreateCommand implements Command {
            String correctAnswer = request.getParameter(AttributesResourceManager.getProperty("parameter.answer"));
            Question question = new Question(questionText,correctAnswer,testId);
            Set<ConstraintViolation<Question>> constraintViolationSet = validator.validate(question);
-           if (constraintViolationSet.size() > 0) {
+           if (!constraintViolationSet.isEmpty()) {
                throw new WrongDataException("Incorrect test data");
            }
            questionService.create(question);

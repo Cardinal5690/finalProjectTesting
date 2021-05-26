@@ -28,7 +28,7 @@ public class AuthenticationFilter implements Filter {
 
         boolean loggedIn = session != null && session.getAttribute(AttributesResourceManager.getProperty("parameter.user")) != null;
         boolean loginRequest = request.getRequestURI().equals(loginURI);
-        boolean signUpRequest = request.getRequestURI().equals(registrationURI);
+        boolean signUpRequest = request.getRequestURI().contains(registrationURI);
         if (loggedIn && (loginRequest || signUpRequest)) {
             request.getRequestDispatcher("/testing/main").forward(request, response);
         } else if (loggedIn || loginRequest || signUpRequest) {

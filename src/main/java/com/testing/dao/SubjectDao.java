@@ -6,5 +6,8 @@ import java.util.List;
 
 public interface SubjectDao extends GenericDao<Subject> {
     List<Subject> findAllByUserId(int user_id);
+
     List<Subject> findAllByLocale(String locale);
+
+    Subject findByTitle(String title);
 }

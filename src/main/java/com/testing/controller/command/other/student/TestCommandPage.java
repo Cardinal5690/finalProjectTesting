@@ -20,8 +20,11 @@ public class TestCommandPage implements Command {
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
         String title = request.getParameter(AttributesResourceManager.getProperty("parameter.title"));
+        if (title == null || title.isEmpty()) {
+            return PageResourceManager.getProperty("redirect.student");
+        }
         List<Test> subjectTests = testService.getBySubjectTitle(title);
-        request.setAttribute(AttributesResourceManager.getProperty("parameter.list"),subjectTests);
+        request.setAttribute(AttributesResourceManager.getProperty("parameter.list"), subjectTests);
         LOGGER.info("Execute");
         return PageResourceManager.getProperty("page.test");
     }

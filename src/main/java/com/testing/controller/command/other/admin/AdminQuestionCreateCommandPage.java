@@ -17,6 +17,9 @@ public class AdminQuestionCreateCommandPage implements Command {
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         LOGGER.info("Execute question create command");
         String subjectId = request.getParameter(AttributesResourceManager.getProperty("parameter.subject.id"));
+        if(subjectId==null|| subjectId.isEmpty()){
+            return PageResourceManager.getProperty("redirect.admin");
+        }
         String subjectTitle= request.getParameter(AttributesResourceManager.getProperty("parameter.title"));
         String  testId = request.getParameter(AttributesResourceManager.getProperty("parameter.test.id"));
         request.setAttribute(AttributesResourceManager.getProperty("parameter.subject.id"),subjectId);

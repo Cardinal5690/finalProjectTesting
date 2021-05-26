@@ -21,15 +21,18 @@ import java.util.Set;
 
 public class AdminUpdateUserCommand implements Command {
     private static final Logger LOGGER = Logger.getLogger(AdminUpdateUserCommand.class);
-    private UserService userService = new UserServiceImpl();
-    private ValidationUserExist validationUserExist = new ValidationUserExist();
-    private ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
-    private Validator validator = factory.getValidator();
+    private final UserService userService = new UserServiceImpl();
+    private final ValidationUserExist validationUserExist = new ValidationUserExist();
+    private final ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+    private final Validator validator = factory.getValidator();
 
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
         LOGGER.info("Execute update user");
-        int userId = Integer.parseInt(request.getParameter(AttributesResourceManager.getProperty("parameter.user.id")));
+        String userId = request.getParameter(AttributesResourceManager.getProperty("parameter.user.id"));
+        if(userId==null|| userId.isEmpty()){
+            return PageResourceManager.getProperty("redirect.admin");
+        }
         String userName =
                 request.getParameter(AttributesResourceManager.getProperty("parameter.user.name"));
         String userSurname =
@@ -41,7 +44,8 @@ public class AdminUpdateUserCommand implements Command {
         String userStatus =
                 request.getParameter(AttributesResourceManager.getProperty("parameter.user.status"));
 
-        User userFromDB = userService.findById(userId);
+        int userIdParseToInt = Integer.parseInt(userId);
+        User userFromDB = userService.findById(userIdParseToInt);
 
         try {
             if (userFromDB == null) {
@@ -52,7 +56,7 @@ public class AdminUpdateUserCommand implements Command {
             }
             userService.setNewParameterUser(userFromDB, userName, userSurname, userEmail, userPassword, userStatus);
             Set<ConstraintViolation<User>> constraintViolationSet = validator.validate(userFromDB);
-            if (constraintViolationSet.size() > 0) {
+            if (!constraintViolationSet.isEmpty()) {
                 throw new WrongDataException("Incorrect user data");
             }
             userService.update(userFromDB);

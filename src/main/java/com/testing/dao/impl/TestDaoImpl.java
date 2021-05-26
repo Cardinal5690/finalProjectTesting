@@ -13,13 +13,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TestDaoImpl implements TestDao {
-    private final static Logger LOGGER = Logger.getLogger(TestDaoImpl.class);
+    private static final Logger LOGGER = Logger.getLogger(TestDaoImpl.class);
 
     @Override
     public Test create(Test entity) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
             PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("test.create"), Statement.RETURN_GENERATED_KEYS);
+                    connection.prepareStatement(QueriesResourceManager.getProperty("test.create"), Statement.RETURN_GENERATED_KEYS)) {
             setParam(entity, preparedStatement);
             preparedStatement.execute();
             ResultSet resultSet = preparedStatement.getGeneratedKeys();
@@ -34,9 +34,9 @@ public class TestDaoImpl implements TestDao {
 
     @Override
     public Test findById(int id) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
             PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("test.find.by.id"));
+                    connection.prepareStatement(QueriesResourceManager.getProperty("test.find.by.id"))) {
             preparedStatement.setInt(1, id);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {
@@ -51,23 +51,23 @@ public class TestDaoImpl implements TestDao {
     @Override
     public List<Test> findAll() {
         List<Test> allTests = new ArrayList<>();
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
-            Statement statement = connection.createStatement();
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
+            Statement statement = connection.createStatement()) {
             ResultSet resultSet = statement.executeQuery(QueriesResourceManager.getProperty("test.find.all"));
             while (resultSet.next()) {
                 allTests.add(new TestMapper().extractFromResultSet(resultSet));
             }
         } catch (SQLException e) {
-            LOGGER.info("Didn't find any test", e);
+            LOGGER.info("Didn't find any tests", e);
         }
         return allTests;
     }
 
     @Override
     public void update(Test entity) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
             PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("test.update"));
+                    connection.prepareStatement(QueriesResourceManager.getProperty("test.update"))) {
             setParam(entity, preparedStatement);
             preparedStatement.setInt(5, entity.getId());
             preparedStatement.executeUpdate();
@@ -85,8 +85,8 @@ public class TestDaoImpl implements TestDao {
 
     @Override
     public void delete(int id) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
-            PreparedStatement preparedStatement = connection.prepareStatement(QueriesResourceManager.getProperty("test.delete"));
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(QueriesResourceManager.getProperty("test.delete"))) {
             preparedStatement.setInt(1, id);
             preparedStatement.execute();
         } catch (SQLException e) {
@@ -97,16 +97,16 @@ public class TestDaoImpl implements TestDao {
     @Override
     public List<Test> getAllTestBySubjectId(int subjectId) {
         List<Test> allTests = new ArrayList<>();
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
             PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("test.find.all.by.subject.id"));
+                    connection.prepareStatement(QueriesResourceManager.getProperty("test.find.all.by.subject.id"))) {
             preparedStatement.setInt(1, subjectId);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
                 allTests.add(new TestMapper().extractFromResultSet(resultSet));
             }
         } catch (SQLException e) {
-            LOGGER.info("Didn't find any test", e);
+            LOGGER.info("Didn't find any tests", e);
         }
         return allTests;
     }
@@ -114,9 +114,9 @@ public class TestDaoImpl implements TestDao {
     @Override
     public List<Test> getBySubjectTitle(String title) {
         List<Test> allTests = new ArrayList<>();
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
             PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("test.find.by.subject.name"));
+                    connection.prepareStatement(QueriesResourceManager.getProperty("test.find.by.subject.name"))) {
             preparedStatement.setString(1, title);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
@@ -130,9 +130,9 @@ public class TestDaoImpl implements TestDao {
 
     @Override
     public Test getByName(String name) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
             PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("test.find.name"));
+                    connection.prepareStatement(QueriesResourceManager.getProperty("test.find.name"))) {
             preparedStatement.setString(1, name);
             ResultSet resultSet = preparedStatement.executeQuery();
             if(resultSet.next()){

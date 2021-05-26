@@ -2,13 +2,13 @@ package com.testing.controller.command.other.admin;
 
 import com.testing.controller.command.Command;
 import com.testing.controller.util.AttributesResourceManager;
-import com.testing.controller.util.CommandUtil;
-import com.testing.controller.util.PageResourceManager;
+import com.testing.model.entity.Subject;
 import com.testing.model.entity.Test;
-import com.testing.model.entity.User;
 import com.testing.model.entity.type.Complexity;
 import com.testing.model.exception.WrongDataException;
+import com.testing.model.service.SubjectService;
 import com.testing.model.service.TestService;
+import com.testing.model.service.impl.SubjectServiceImpl;
 import com.testing.model.service.impl.TestServiceImpl;
 import org.apache.log4j.Logger;
 
@@ -24,23 +24,26 @@ import java.util.Set;
 
 public class AdminTestCreateCommand implements Command {
     private static final Logger LOGGER = Logger.getLogger(AdminTestCreateCommand.class);
-    private TestService testService = new TestServiceImpl();
-    private ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
-    private Validator validator = factory.getValidator();
+    private final TestService testService = new TestServiceImpl();
+    private final SubjectService subjectService = new SubjectServiceImpl();
+    private final ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+    private final Validator validator = factory.getValidator();
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        LOGGER.info("Execute");
+        LOGGER.info("Admin creates test command");
         String testName = request.getParameter(AttributesResourceManager.getProperty("parameter.test.name"));
         String complexity = request.getParameter(AttributesResourceManager.getProperty("parameter.test.complexity"));
-        request.setAttribute(AttributesResourceManager.getProperty("parameter.title"), request.getParameter(AttributesResourceManager.getProperty("parameter.title")));
+        String title = request.getParameter(AttributesResourceManager.getProperty("parameter.title"));
+        request.setAttribute(AttributesResourceManager.getProperty("parameter.title"), title);
         try {
             int subjectId = Integer.parseInt(request.getParameter(AttributesResourceManager.getProperty("parameter.subject.id")));
             request.setAttribute(AttributesResourceManager.getProperty("parameter.subject.id"), subjectId);
+            Subject subject = subjectService.findByTitle(title);
             int time = Integer.parseInt(request.getParameter(AttributesResourceManager.getProperty("parameter.test.time")));
             Complexity testComplexity = Enum.valueOf(Complexity.class, complexity);
-            Test test = new Test(testName,time,testComplexity,subjectId);
+            Test test = new Test(testName,time,testComplexity,subject.getId());
             Set<ConstraintViolation<Test>> constraintViolationSet = validator.validate(test);
-            if (constraintViolationSet.size() > 0) {
+            if (!constraintViolationSet.isEmpty()) {
                 throw new WrongDataException("Incorrect test data");
             }
             testService.create(test);

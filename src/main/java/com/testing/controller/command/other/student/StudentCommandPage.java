@@ -20,8 +20,8 @@ import java.util.Map;
 
 public class StudentCommandPage implements Command {
     private static final Logger LOGGER = Logger.getLogger(StudentCommandPage.class);
-    private TestResultService testResultService = new TestResultServiceImpl();
-    private TestService testService = new TestServiceImpl();
+    private final TestResultService testResultService = new TestResultServiceImpl();
+    private final TestService testService = new TestServiceImpl();
 
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {

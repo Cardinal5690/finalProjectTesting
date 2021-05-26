@@ -11,7 +11,7 @@ import java.util.List;
 public class SubjectServiceImpl implements SubjectService {
     DaoFactory daoFactory = DaoFactory.getInstance();
     SubjectDao subjectDao = daoFactory.createSubjectDao();
-    private final static Logger LOGGER = Logger.getLogger(SubjectServiceImpl.class);
+    private static final Logger LOGGER = Logger.getLogger(SubjectServiceImpl.class);
 
     @Override
     public Subject create(Subject entity) {
@@ -47,5 +47,11 @@ public class SubjectServiceImpl implements SubjectService {
     public List<Subject> findAllByLocale(String locale) {
         LOGGER.info("Service looks for all subjects");
         return subjectDao.findAllByLocale(locale);
+    }
+
+    @Override
+    public Subject findByTitle(String title) {
+        LOGGER.info("The service searches for a subject by title");
+        return subjectDao.findByTitle(title);
     }
 }

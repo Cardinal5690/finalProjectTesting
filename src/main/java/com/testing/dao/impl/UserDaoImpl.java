@@ -16,9 +16,9 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User create(User entity) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
-            PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("user.create"), Statement.RETURN_GENERATED_KEYS);
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
+             PreparedStatement preparedStatement =
+                     connection.prepareStatement(QueriesResourceManager.getProperty("user.create"), Statement.RETURN_GENERATED_KEYS)) {
             setParam(entity, preparedStatement);
             preparedStatement.execute();
             ResultSet resultSet = preparedStatement.getGeneratedKeys();
@@ -33,8 +33,8 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User findById(int id) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
-            PreparedStatement preparedStatement = connection.prepareStatement(QueriesResourceManager.getProperty("user.find.by.id"));
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(QueriesResourceManager.getProperty("user.find.by.id"))) {
             preparedStatement.setInt(1, id);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {
@@ -49,8 +49,8 @@ public class UserDaoImpl implements UserDao {
     @Override
     public List<User> findAll() {
         List<User> allUsers = new ArrayList<>();
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
-            Statement statement = connection.createStatement();
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
+             Statement statement = connection.createStatement()) {
             ResultSet resultSet = statement.executeQuery(QueriesResourceManager.getProperty("user.find.all"));
             while (resultSet.next()) {
                 allUsers.add(new UserMapper().extractFromResultSet(resultSet));
@@ -63,9 +63,9 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public void update(User entity) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
             PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("user.update"));
+                    connection.prepareStatement(QueriesResourceManager.getProperty("user.update"))) {
             setParam(entity, preparedStatement);
             preparedStatement.setInt(7, entity.getId());
             preparedStatement.execute();
@@ -85,8 +85,8 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public void delete(int id) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
-            PreparedStatement preparedStatement = connection.prepareStatement(QueriesResourceManager.getProperty("user.delete"));
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(QueriesResourceManager.getProperty("user.delete"))) {
             preparedStatement.setInt(1, id);
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
@@ -96,9 +96,9 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User findUserByLoginAndPassword(String email, String password) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
             PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("user.find.by.login.and.password"));
+                    connection.prepareStatement(QueriesResourceManager.getProperty("user.find.by.login.and.password"))) {
             preparedStatement.setString(1, email);
             preparedStatement.setString(2, password);
             ResultSet resultSet = preparedStatement.executeQuery();
@@ -113,9 +113,9 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User findByEmail(String email) {
-        try (Connection connection = ConnectionPool.getDataSource().getConnection()) {
+        try (Connection connection = ConnectionPool.getDataSource().getConnection();
             PreparedStatement preparedStatement =
-                    connection.prepareStatement(QueriesResourceManager.getProperty("user.find.by.email"));
+                    connection.prepareStatement(QueriesResourceManager.getProperty("user.find.by.email"))) {
             preparedStatement.setString(1, email);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {

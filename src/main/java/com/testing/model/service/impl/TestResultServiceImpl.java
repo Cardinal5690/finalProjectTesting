@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 public class TestResultServiceImpl implements TestResultService {
     DaoFactory daoFactory = DaoFactory.getInstance();
     TestResultDao testResultDao = daoFactory.createTestResultDao();
-    private final static Logger LOGGER = Logger.getLogger(TestResultServiceImpl.class);
+    private static final Logger LOGGER = Logger.getLogger(TestResultServiceImpl.class);
 
     @Override
     public TestResult getTestResultByUserIdAndTestName(int userId, String testName) {

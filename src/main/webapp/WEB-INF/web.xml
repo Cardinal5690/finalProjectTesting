@@ -37,7 +37,7 @@
     </filter-mapping>
     <filter>
         <filter-name>RoleFilter</filter-name>
-        <filter-class>com.testing.controller.filter.RoleFilter</filter-class>
+        <filter-class>com.testing.controller.filter.AuthorizationFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>RoleFilter</filter-name>

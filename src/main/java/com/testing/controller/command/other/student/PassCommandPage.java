@@ -18,6 +18,9 @@ public class PassCommandPage implements Command {
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
         String testName = request.getParameter(AttributesResourceManager.getProperty("parameter.question"));
+        if(testName==null || testName.isEmpty()){
+            return PageResourceManager.getProperty("redirect.student");
+        }
         List<Question> questionList =questionService.getAllQuestionsByTestName(testName);
         request.setAttribute(AttributesResourceManager.getProperty("parameter.list"),questionList);
         request.setAttribute(AttributesResourceManager.getProperty("parameter.test.name"),testName);

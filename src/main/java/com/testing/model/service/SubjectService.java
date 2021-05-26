@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface SubjectService extends GeneralService<Subject>{
     List<Subject> findAllByLocale (String locale);
+    Subject findByTitle(String title);
 }

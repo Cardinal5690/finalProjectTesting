@@ -21,7 +21,7 @@ public class Test {
     @ComplexitySubset(anyOf = {Complexity.EASY,Complexity.DIFFICULT,Complexity.MIDDLE})
     private Complexity complexity;
     @NotNull
-    private Integer SubjectId;
+    private Integer subjectId;
 
     public Test() {
     }
@@ -30,7 +30,7 @@ public class Test {
         this.testName = testName;
         this.time = time;
         this.complexity = complexity;
-        SubjectId = subjectId;
+        this.subjectId = subjectId;
     }
 
     public Integer getId() {
@@ -66,11 +66,11 @@ public class Test {
     }
 
     public Integer getSubjectId() {
-        return SubjectId;
+        return subjectId;
     }
 
     public void setSubjectId(Integer subjectId) {
-        SubjectId = subjectId;
+        this.subjectId = subjectId;
     }
 
     @Override
@@ -78,11 +78,11 @@ public class Test {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Test test = (Test) o;
-        return Objects.equals(id, test.id) && Objects.equals(testName, test.testName) && Objects.equals(time, test.time) && complexity == test.complexity && Objects.equals(SubjectId, test.SubjectId);
+        return Objects.equals(id, test.id) && Objects.equals(testName, test.testName) && Objects.equals(time, test.time) && complexity == test.complexity && Objects.equals(subjectId, test.subjectId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, testName, time, complexity, SubjectId);
+        return Objects.hash(id, testName, time, complexity, subjectId);
     }
 }
